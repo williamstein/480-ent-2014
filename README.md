@@ -3,6 +3,8 @@
 - Professor: William Stein (<http://wstein.org>)
 - Location:  MWF 12:30-1:20 in Condon Hall (CDH) room 223B
 - Website: <https://github.com/williamstein/480-ent-2014>
+- Google Group Mailing List: <https://groups.google.com/forum/#!forum/480-ent-2104>
+- UW mailing list: <math480a_wi14@uw.edu>
 
 # Textbook
 
