@@ -88,7 +88,7 @@ def f(x=100000):
   \\sqrt{x}\\log(x) &=& %s
 \\end{eqnarray}
 """%(a, b, a-b, N(sqrt(x)*log(x)))  )
-︡29561a19-e257-492d-a47d-9d384e1b8f51︡{"interact":{"style":"None","flicker":false,"layout":[[["x",12,null]],[["",12,null]]],"id":"6d72da4d-7b54-4715-a424-d1e54a271e81","controls":[{"control_type":"input-box","default":100000,"label":"x","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"x","type":null}]}}︡
+︡04f85ef3-89ef-46ed-bdb5-924dc28c9d7a︡{"interact":{"style":"None","flicker":false,"layout":[[["x",12,null]],[["",12,null]]],"id":"1c1117ab-9c06-45ab-974a-4da38b96a07a","controls":[{"control_type":"input-box","default":100000,"label":"x","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"x","type":null}]}}︡
 ︠b8d7e258-deea-48ab-8872-2194244c3c7ci︠
 
 
@@ -98,7 +98,7 @@ def f(x=100000):
 "As of October 2013, the largest known prime number is $2^{57,885,161} − 1$,  a number with 17,425,170 digits." -- see <http://en.wikipedia.org/wiki/Largest_known_prime_number>
 
 This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.
-︡731d5af4-dffb-4acb-b469-f3b8858df6b7︡{"html":"<h1>Largest KNOWN Prime</h1>\n\n<p>&#8220;As of October 2013, the largest known prime number is $2^{57,885,161} − 1$,  a number with 17,425,170 digits.&#8221; &#8211; see <a href=\"http://en.wikipedia.org/wiki/Largest_known_prime_number\">http://en.wikipedia.org/wiki/Largest_known_prime_number</a></p>\n\n<p>This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.</p>\n"}︡
+︡6764aef1-f3bb-4514-bfea-b7412ad905c4︡{"html":"<h1>Largest KNOWN Prime</h1>\n\n<p>&#8220;As of October 2013, the largest known prime number is $2^{57,885,161} − 1$,  a number with 17,425,170 digits.&#8221; &#8211; see <a href=\"http://en.wikipedia.org/wiki/Largest_known_prime_number\">http://en.wikipedia.org/wiki/Largest_known_prime_number</a></p>\n\n<p>This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.</p>\n"}︡
 ︠e9ff0a6e-1cd2-4274-b21b-116d805ef516︠
 %time p = 2^57885161
 ︡69cb3ec6-a3e0-477a-a231-6ad8012ad227︡{"stdout":"CPU time: 0.01 s, Wall time: 0.00 s\n"}︡
