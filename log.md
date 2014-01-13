@@ -1,7 +1,13 @@
 # Jan 13
 
- - screen recording
- - status reports
+ - another colloquium (this time I'll give you the right room!):
+        January 13, 2014 at 2:30pm (THO 119)
+        > Speaker:  Bianca Viray of Brown University
+        > Title:  The local to global principle for rational points
+        > Abstract:   Let X be a connected smooth projective variety over Q. If X has a Q point, then X must have local points, i.e. points over the reals and over the p-adic completions Q_p. However, local solubility is often not sufficient. Manin showed that quadratic reciprocity together with higher reciprocity laws can obstruct the existence of a Q point (a global point) even when there exist local points. We will give an overview of this obstruction (in the case of quadratic reciprocity) and then show that for certain surfaces, this reciprocity obstruction can be viewed in a geometric manner. More precisely, we will show that for degree 4 del Pezzo surfaces, Manin's obstruction to the existence of a rational point is equivalent to the surface being fibered into genus 1 curves, each of which fail to be locally solvable. This talk will be suitable for a general audience.
+        
+ - screen recording on.
+ - status reports (question: do I need to add you to the "SHARED math 480" project?)
  - go over homework 1
  - talk about congruences
 
@@ -10,7 +16,7 @@
  - screen recording
  - Wei Ho's talk:
           Speaker:  Wei Ho of Columbia University
-          Location: January 10, 2014 at 2:30pm (MGH 231)
+          Location: January 10, 2014 at 2:30pm (MGH 231)  <-- wrong room :-(
           Title:    Arithmetic invariant theory and applications
           Abstract: The origins of "arithmetic invariant theory" come from the work of Gauss, who used integer binary quadratic forms to study ideal class groups of quadratic fields. The underlying philosophy---parametrizing arithmetic and geometric objects by orbits of group representations---has now been used to study higher degree number fields, curves, and higher-dimensional varieties. We will discuss some of these constructions and highlight the applications to topics such as bounding ranks of elliptic curves and dynamics on K3 surfaces.
           This talk is intended for a general mathematical audience.
