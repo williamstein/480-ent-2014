@@ -28,7 +28,6 @@ An integer $n>1$ is **prime** if it is divisible only by itself.
 Give proof on the board....
 
 ︡43c83659-8a6d-4902-aa64-95612c549494︡{"html":"<h1>Prime numbers</h1>\n\n<p>2, 3, 5, 7, 11, etc.</p>\n\n<p>An integer $n>1$ is <strong>prime</strong> if it is divisible only by itself.</p>\n\n<p><strong>Theorem:</strong> <em>There are infinitely many primes.</em></p>\n\n<p>Give proof on the board&#8230;.</p>\n"}︡
-︠0f505ddf-0c80-4d09-be4d-842ed48e8336︠
 ︠b8d7e258-deea-48ab-8872-2194244c3c7ci︠
 
 
@@ -38,7 +37,7 @@ Give proof on the board....
 "As of October 2013, the largest known prime number is $2^{57,885,161} − 1$,  a number with 17,425,170 digits." -- see <http://en.wikipedia.org/wiki/Largest_known_prime_number>
 
 This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.
-︡731d5af4-dffb-4acb-b469-f3b8858df6b7︡{"html":"<h1>Largest KNOWN Prime</h1>\n\n<p>&#8220;As of October 2013, the largest known prime number is $2^{57,885,161} − 1$,  a number with 17,425,170 digits.&#8221; &#8211; see <a href=\"http://en.wikipedia.org/wiki/Largest_known_prime_number\">http://en.wikipedia.org/wiki/Largest_known_prime_number</a></p>\n\n<p>This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.</p>\n"}︡
+︡6764aef1-f3bb-4514-bfea-b7412ad905c4︡{"html":"<h1>Largest KNOWN Prime</h1>\n\n<p>&#8220;As of October 2013, the largest known prime number is $2^{57,885,161} − 1$,  a number with 17,425,170 digits.&#8221; &#8211; see <a href=\"http://en.wikipedia.org/wiki/Largest_known_prime_number\">http://en.wikipedia.org/wiki/Largest_known_prime_number</a></p>\n\n<p>This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.</p>\n"}︡
 ︠e9ff0a6e-1cd2-4274-b21b-116d805ef516︠
 %time p = 2^57885161 - 1
 ︡0d961a7d-1063-4a74-a53a-a0770a2a59cd︡{"stdout":"CPU time: 0.01 s, Wall time: 0.01 s\n"}︡
