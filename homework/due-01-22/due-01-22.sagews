@@ -1,3 +1,8 @@
+
+
+
+
+
 ︠8148a82a-5852-4493-891b-2bdff2813b89i︠
 %md
 # Homework 1 -- Due Jan 22, 2014
@@ -16,6 +21,23 @@
 ## Problems
 
 ︡0058a318-5ec8-49c3-8f5d-daa348167ec7︡{"html":"<h1>Homework 1 &#8211; Due Jan 22, 2014</h1>\n\n<h2>Instructions</h2>\n\n<ul>\n<li>Put your solutions in the empty space below the problem.</li>\n<li>Create a new cell by clicking on the horizontal cell dividers.</li>\n<li>If you put &#8220;%md&#8221; at the top of your answer then you can put latex math &#8211; like $x^3$ &#8211; in dollar signs.\n<ul>\n<li>If you then press shift-enter you&#8217;ll see the rendered math.</li>\n<li>If you <strong>double click</strong> on the output then you can edit the input again.</li>\n<li>This uses Markdown format, which you can learn about here: <a href=\"http://daringfireball.net/projects/markdown/\">http://daringfireball.net/projects/markdown/</a></li>\n</ul></li>\n<li>Put this worksheet in a folder called &#8220;homework&#8221; in your project.</li>\n<li>For this first assignment, when you&#8217;re done, open the worksheet, and copy/paste the URL into an email to wstein@gmail.com with the subject &#8220;math 480: homework 01-22&#8221;.   (Later I&#8217;ll automate this.)</li>\n</ul>\n\n<h2>Problems</h2>\n"}︡
+︠c5bde73e-86f9-4739-b3ce-e3f9c96a7d68︠
+%md
+
+Consider some math: $x^3+y^3$
+
+
+︡dff300c1-bc84-4463-8be9-01946324c942︡{"html":"<p>Consider some math: $x^3+y^3$</p>\n"}︡
+︠464ffd76-9389-46f7-864f-87f17e20295f︠
+%latex
+
+Consider some math: $x^3+y^3$
+︡931841b9-2424-4822-85ad-1eef26f609f8︡{"once":false,"file":{"show":true,"uuid":"34494b93-8417-47fe-914c-c99823997a8f","filename":"/tmp/tmp9beKRi.png"}}︡{"stdout":"\n"}︡
+︠190c3a38-8f38-41a2-8379-822adfa5568c︠
+#sage_chat()
+︡815516b3-6ca4-4f5a-8401-fcc1fe9f586f︡
+︠a7f02801-23e9-4a1c-88c6-e43a9c8bb559︠
+
 ︠46748791-3da7-4aeb-aff4-6dfb05da0e1fi︠
 %md
 ### Problem 1: a gcd by hand
