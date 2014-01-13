@@ -53,17 +53,23 @@ def f(x=100000):
     a = prime_pi(x)
     b = N(Li(x))
     c = N(x/(log(x)-1))
+    c = N(x/(log(x)-1))
+    c = N(x/(log(x)-1))
     md("""
 \\begin{eqnarray}
   \\pi(x) &=& %s   \\\\
   \\text{Li}(x) &=& %s\\\\
   x/(\\log(x)-1) &=& %s\\\\
+  x/(\\log(x)-1) &=& %s\\\\
+  x/(\\log(x)-1) &=& %s\\\\
   \\pi(x) - \\text{Li}(x) &=& %s\\\\
   \\sqrt{x}\\log(x) &=& %s
 \\end{eqnarray}
-"""%(a, b, c, a-b, N(sqrt(x)*log(x)))  )
+"""%(a, b, c, c, c, a-b, N(sqrt(x)*log(x)))  )
 ︡5743bc25-1421-4699-95a1-889f0ba0077c︡{"interact":{"style":"None","flicker":false,"layout":[[["x",12,null]],[["",12,null]]],"id":"56e2e4d8-5601-4a7b-b34a-07b70e3bdad8","controls":[{"control_type":"input-box","default":100000,"label":"x","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"x","type":null}]}}︡
-︠4bfa446a-d4d8-4fb9-817d-df899d8542aai︠
+︠224335bb-bbea-49af-a00b-c46f49c99cebi︠
+︡5743bc25-1421-4699-95a1-889f0ba0077c︡{"interact":{"style":"None","flicker":false,"layout":[[["x",12,null]],[["",12,null]]],"id":"56e2e4d8-5601-4a7b-b34a-07b70e3bdad8","controls":[{"control_type":"input-box","default":100000,"label":"x","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"x","type":null}]}}︡
+︠100ecb17-aca8-47a2-ad3c-b405e982b395i︠
 
 %md
 ## Many Related Questions
