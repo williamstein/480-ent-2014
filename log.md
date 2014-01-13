@@ -1,8 +1,9 @@
 # Jan 13
 
+ - screen recording
  - status reports
- - homework discussion
- - talk about congruences and CRT
+ - go over homework 1
+ - talk about congruences
 
 # Jan 10
 
