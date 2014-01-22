@@ -1,4 +1,4 @@
-︠dd90422c-4091-43dc-87e8-a32db998eaf5i︠
+︠dd90422c-4091-43dc-87e8-a32db998eaf5︠
 %md
 # Lecture for January 13, 2014
 

@@ -1,17 +1,29 @@
+# Jan 29
+
+ - status reports
+ - start public-key cryptography
+
+# Jan 27
+
+ - status reports
+ - computing inverses and powers modulo n
+
 # Jan 24
 
- - stat
+ - status reports
  - Chinese Remainder Theorem
 
 # Jan 22
 
- - status reports
- - reminder: Homework due tonight at 11:59pm -- send me an email with a link; you can keep changing the homework up to the deadline, even after you send the link
- - questions about SageMathCloud
- - new homework
- - math on the board (can shoot video?): prove Euler's therem and Wilson's theorem
-
-
+ - [x] status reports
+ - [x] reminder: Homework due tonight at 11:59pm -- send me an email with a link; you can keep changing the homework up to the deadline, even after you send the link
+ - [x] questions about SageMathCloud:
+    - snapshots can save your ass.
+    - homework work flow.
+    - email command: maybe.
+ - [x] go over new homework
+ 
+ - [ ] math on the board (can shoot video?): prove Euler's therem and Wilson's theorem
 
 
 

@@ -103,7 +103,6 @@ is also a solution to $ax+by=d$.
 ︡b221c36f-20c0-4d29-8df6-a87f0bf1d080︡{"html":"<h3>Problem 4: Complete sets of residues</h3>\n\n<ol>\n<li><p>Find four complete sets of residues modulo $11$, where each element of the $i$th set satisfies the $i$th condition:</p>\n\n<p>(1) nonnegative, (2) odd, (3) even, (4) prime.</p></li>\n<li><p>Let $n$ be any positive integer at all.  Does there necessarily exist four complete set of residues modulo $n$, where each element of the $i$th set satisfies the $i$th condition:</p>\n\n<p>(1) nonnegative, (2) odd, (3) even, (4) prime.</p></li>\n</ol>\n\n<p>(Your answer will be either a proof or an explicit counterexample for some specific value of $n$.)</p>\n"}︡
 ︠f9f01f16-0b84-4961-b13d-326fe925c1b1︠
 
-
 ︠54aa78fe-b76c-4772-9606-78ce4eed9815︠
 
 ︠097d425c-6f5c-4126-983f-0b2372fbbf4d︠
