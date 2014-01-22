@@ -1,6 +1,9 @@
-︠41b80f6e-b45a-4efd-bac4-a914a91d343ai︠
+︠41b80f6e-b45a-4efd-bac4-a914a91d343a︠
 %md
 # Lecture for January 22, 2014
+
+ - screencast: <http://youtu.be/Jk3q8KLdb6Q>
+ - whiteboard: <http://youtu.be/vp1wtCgctQQ>
 ︡91371c57-338b-4357-9f10-1f88e38f5279︡{"html":"<h1>Lecture for January 22, 2014</h1>\n"}︡
 ︠fa77d08a-0f3a-4cc7-b371-e44fc1377d67︠
 md("## Computing the multiplicative order", hide=False)
