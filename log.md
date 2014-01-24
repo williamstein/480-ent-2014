@@ -22,7 +22,7 @@
     - homework work flow.
     - email command: maybe.
  - [x] go over new homework
- 
+
  - [ ] math on the board (can shoot video?): prove Euler's therem and Wilson's theorem
 
 

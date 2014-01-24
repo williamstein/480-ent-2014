@@ -28,7 +28,7 @@ $
    \frac{p!}{r!(p-r)!}
 $
 is an integer.
-︡e10c1baa-dc35-4b0f-b6bd-8f9a6884af15︡{"html":"<h3>Problem 1: The Freshman Dream</h3>\n\n<p>Prove that if $a$ and $b$ are integers and $p$ is a prime,\nthen $(a+b)^p \\equiv a^p + b^p\\pmod{p}$.  You may assume\nthat the binomial coefficient\n$\n   \\frac{p!}{r!(p-r)!}\n$\nis an integer.</p>\n"}︡
+︡080a7478-9394-4056-af0e-d8eff5ac142e︡{"html":"<h3>Problem 1: The Freshman Dream</h3>\n\n<p>Prove that if $a$ and $b$ are integers and $p$ is a prime,\nthen $(a+b)^p \\equiv a^p + b^p\\pmod{p}$.  You may assume\nthat the binomial coefficient\n$\n   \\frac{p!}{r!(p-r)!}\n$\nis an integer.</p>\n"}︡
 ︠d167f9f2-7415-4488-bd5d-957fa748485d︠
 # For example:
 (2+3)^7 % 7
