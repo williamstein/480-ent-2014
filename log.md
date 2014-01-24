@@ -1,17 +1,19 @@
 # Jan 29
 
- - status reports
- - start public-key cryptography
+ - [ ] status reports
+ - [ ] more public key crypto
 
 # Jan 27
 
- - status reports
- - computing inverses and powers modulo n
+ - [ ] status reports
+ - [ ] start public key crypto
+ - [ ] then talk about fast computation of inverses and powers modulo n, which make crypto possible.
 
 # Jan 24
 
- - status reports
- - Chinese Remainder Theorem
+ - [ ] status reports
+ - [ ] computer examples of: euler phi function, euler's theorem, wilson's theorem, crt
+ - [ ] prove Chinese Remainder Theorem on whiteboard
 
 # Jan 22
 
@@ -22,8 +24,8 @@
     - homework work flow.
     - email command: maybe.
  - [x] go over new homework
- 
- - [ ] math on the board (can shoot video?): prove Euler's therem and Wilson's theorem
+
+ - [x] math on the board (can shoot video?): prove Euler's therem and Wilson's theorem
 
 
 
