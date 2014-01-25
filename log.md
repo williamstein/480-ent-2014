@@ -11,7 +11,7 @@
 
 # Jan 24
 
- - [ ] status reports
+ - [x] status reports
  - [ ] computer examples of: euler phi function, euler's theorem, wilson's theorem, crt
  - [ ] prove Chinese Remainder Theorem on whiteboard
 
