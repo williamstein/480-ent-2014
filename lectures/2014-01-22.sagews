@@ -23,21 +23,21 @@ def f(a=3, n=10):
         print b,
         b *= abar
     print
-︡5ce66e40-cb3d-46fc-811f-c07c5896e6ec︡{"html":"<h2>Computing the multiplicative order</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",12,null]],[["n",12,null]],[["",12,null]]],"id":"0e8ec7ba-dc57-47a4-b874-74b93666837c","controls":[{"control_type":"input-box","default":3,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":10,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︡b0e7dc8e-7a5b-4a66-b4c2-98f0110a2dfc︡{"html":"<h2>Computing the multiplicative order</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",12,null]],[["n",12,null]],[["",12,null]]],"id":"d624b3c6-a12e-4a51-b1cb-6f03590a0823","controls":[{"control_type":"input-box","default":3,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":10,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
 ︠33448e72-9b32-4d7a-a65e-b09a21932b2e︠
 md("## Use Euler's Phi Function $\\varphi(n)$", hide=False)
 @interact
 def _(n=2014):
     print "euler_phi(%s) = %s"%(n, euler_phi(n))
-︡ee610432-1cdc-439c-803a-1595b6fe70a3︡{"html":"<h2>Use Euler&#8217;s Phi Function $\\varphi(n)$</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["n",12,null]],[["",12,null]]],"id":"7cdd4862-7cee-41dc-84e1-2abe301d161b","controls":[{"control_type":"input-box","default":2014,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︡a4d2eda4-35f9-42ee-b263-75bf3f3092c7︡{"html":"<h2>Use Euler&#8217;s Phi Function $\\varphi(n)$</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["n",12,null]],[["",12,null]]],"id":"9891f897-36a0-41a0-964a-ba4070be2ada","controls":[{"control_type":"input-box","default":2014,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
 ︠3b3575f5-d972-4b53-b010-9c33692a1ec2︠
 md("## Try out Euler's theorem", hide=False)
 @interact
 def _(n=20):
     k = euler_phi(n)
     print [Mod(x,n)^k for x in range(n) if gcd(x,n) == 1]
-︡4ea3c490-fd45-42e9-b0dc-68b617c5ba5f︡{"html":"<h2>Try out Euler&#8217;s theorem</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["n",12,null]],[["",12,null]]],"id":"799dee99-2606-42ff-9a49-d36bea8e2e50","controls":[{"control_type":"input-box","default":20,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
-︠37058845-c56c-4850-9dae-86ac65ed52f3︠
+︡4cd14f12-4264-44fc-8efd-414f8de425aa︡{"html":"<h2>Try out Euler&#8217;s theorem</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["n",12,null]],[["",12,null]]],"id":"eb7a6177-3f59-4a64-845e-780be15e045c","controls":[{"control_type":"input-box","default":20,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︠37058845-c56c-4850-9dae-86ac65ed52f3i︠
 
 md("## Try out Wilson's theorem", hide=False)
 @interact
@@ -47,7 +47,7 @@ def _(n=2013):
         f *= Mod(a,n)
     md("$$p=%s$$"%n,hide=False)
     md("$$(p-1)! \\equiv %s \\pmod{p}$$"%f,  hide=False)
-︡27a73734-d4d5-4374-87e4-d5487b0ee91b︡{"html":"<h2>Try out Wilson&#8217;s theorem</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["n",12,null]],[["",12,null]]],"id":"12ab9efd-8e70-4f91-ae9a-10a72ea539e2","controls":[{"control_type":"input-box","default":2013,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︡d7925eb9-fb71-42a2-abc2-ec2aaee39116︡{"html":"<h2>Try out Wilson&#8217;s theorem</h2>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["n",12,null]],[["",12,null]]],"id":"2a645608-0112-438d-b238-f51a5d5fc5c2","controls":[{"control_type":"input-box","default":2013,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
 ︠de398aba-145e-4d5a-b860-89ad9b64d180︠
 
 
