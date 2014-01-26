@@ -70,9 +70,9 @@ is also a solution to $ax+by=d$.
 
 2. Find two distinct solutions to $2014x + 3000y = 2$.
 
-3. Prove that all solutions are of the above  for some $c$.
+3. Prove that all solutions are of the above form for some $c$.
 
-︡a8e27aa3-36b3-445d-b77c-407086385cae︡{"html":"<h3>Problem 3: Parametrizing Extended Euclidean Algorithm Representations</h3>\n\n<ol>\n<li><p>Prove that if $x, y$ is a solution to\n$ax + by = d$, with $d=\\gcd(a,b)$,\nthen for all $c\\in\\mathbb{Z}$,\n$$\nx&#8217; = x+ c\\cdot\\frac{b}{d}, \\qquad\ny&#8217; = y - c\\cdot\\frac{a}{d}\n$$\nis also a solution to $ax+by=d$.</p></li>\n<li><p>Find two distinct solutions to $2014x + 3000y = 2$.</p></li>\n<li><p>Prove that all solutions are of the above  for some $c$.</p></li>\n</ol>\n"}︡
+︡8841a638-7bf2-46f8-b92d-cea3e0fc78ed︡{"html":"<h3>Problem 3: Parametrizing Extended Euclidean Algorithm Representations</h3>\n\n<ol>\n<li><p>Prove that if $x, y$ is a solution to\n$ax + by = d$, with $d=\\gcd(a,b)$,\nthen for all $c\\in\\mathbb{Z}$,\n$$\nx&#8217; = x+ c\\cdot\\frac{b}{d}, \\qquad\ny&#8217; = y - c\\cdot\\frac{a}{d}\n$$\nis also a solution to $ax+by=d$.</p></li>\n<li><p>Find two distinct solutions to $2014x + 3000y = 2$.</p></li>\n<li><p>Prove that all solutions are of the above form for some $c$.</p></li>\n</ol>\n"}︡
 ︠955cf916-f222-4549-89ff-792d059b4118︠
 
 
