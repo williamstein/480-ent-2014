@@ -3,8 +3,7 @@
 # January 27, 2014: Public-key Cryptography, part 1.
 
  - screencast: <>
- - whiteboard: <>
-︡6518c5b6-6c5a-4dfa-b40f-13c310958470︡{"html":"<h1>January 27, 2014: Public-key Cryptography, part 1.</h1>\n\n<ul>\n<li>screencast: &lt;&gt;</li>\n<li>whiteboard: &lt;&gt;</li>\n</ul>\n"}︡
+︡c728810e-bc7a-445c-bf1c-73a4d172b0f8︡{"html":"<h1>January 27, 2014: Public-key Cryptography, part 1.</h1>\n\n<ul>\n<li>screencast: &lt;&gt;</li>\n</ul>\n"}︡
 ︠aec94b5c-9ae4-46b1-8c36-44004645f86di︠
 md("## Raising numbers to large powers modulo $n$\n... is fast!")
 
@@ -15,17 +14,25 @@ def f(a=2,b=3,n=5):
     tm = cputime(t)
     md("$$%s ^ {%s} \\equiv %s \\pmod{%s}$$"%(a,b,r,n))
     print "Time (seconds):", tm
-︡afa0d95d-ed38-47ba-a901-5272a0c493fd︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",4,null],["b",4,null],["n",4,null]],[["",12,null]]],"id":"5c81c064-bcf1-4ff3-a6e5-559e693aa4e0","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
-︠4c3e8916-475b-4d37-ad3c-5e989eb437c3︠
+︡32d20f84-ad69-4df0-ab7b-138b74aa7144︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",4,null],["b",4,null],["n",4,null]],[["",12,null]]],"id":"104cc2b9-2919-427a-b9a9-8277694175e7","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︠4c3e8916-475b-4d37-ad3c-5e989eb437c3i︠
 
 
 
 
+%md
+## Explain Diffie-Hellman on the whiteboard...
+
+First, check out <http://www.ams.org/mathscinet/search/publdoc.html?arg3=&co4=AND&co5=AND&co6=AND&co7=AND&dr=all&pg4=AUCN&pg5=AUCN&pg6=PC&pg7=ALLF&pg8=ET&review_format=html&s4=diffie&s5=hellman&s6=&s7=&s8=All&vfpref=html&yearRangeFirst=&yearRangeSecond=&yrop=eq&r=2&mx-pid=437208>
+
+︡c3ac102e-b969-421d-8e75-f2769cd9d9f7︡{"html":"<h2>Explain Diffie-Hellman on the whiteboard&#8230;</h2>\n\n<p>First, check out <a href=\"http://www.ams.org/mathscinet/search/publdoc.html?arg3=&amp;co4=AND&amp;co5=AND&amp;co6=AND&amp;co7=AND&amp;dr=all&amp;pg4=AUCN&amp;pg5=AUCN&amp;pg6=PC&amp;pg7=ALLF&amp;pg8=ET&amp;review_format=html&amp;s4=diffie&amp;s5=hellman&amp;s6=&amp;s7=&amp;s8=All&amp;vfpref=html&amp;yearRangeFirst=&amp;yearRangeSecond=&amp;yrop=eq&amp;r=2&amp;mx-pid=437208\">http://www.ams.org/mathscinet/search/publdoc.html?arg3=&amp;co4=AND&amp;co5=AND&amp;co6=AND&amp;co7=AND&amp;dr=all&amp;pg4=AUCN&amp;pg5=AUCN&amp;pg6=PC&amp;pg7=ALLF&amp;pg8=ET&amp;review_format=html&amp;s4=diffie&amp;s5=hellman&amp;s6=&amp;s7=&amp;s8=All&amp;vfpref=html&amp;yearRangeFirst=&amp;yearRangeSecond=&amp;yrop=eq&amp;r=2&amp;mx-pid=437208</a></p>\n"}︡
+︠ee3f1e0f-2be8-42a7-9007-b18b65504e10︠
+salvus.file('diffie-hellman-review.png')
 
 
 
 
-
+︡23e2b36e-697b-498c-b8d9-aabaef671c22︡{"once":false,"file":{"show":true,"uuid":"fa5ce71a-6152-4bd3-996c-e37e214196f1","filename":"diffie-hellman-review.png"}}︡
 ︠96abf908-4e3c-42f6-821b-2585c9d29f57︠
 md("## Diffie-Hellman key exchange demo", hide=False)
 
