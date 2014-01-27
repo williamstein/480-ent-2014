@@ -1,19 +1,21 @@
 # Jan 29
 
  - [ ] status reports
- - [ ] more public key crypto
+ - [ ] more public-key cryptography
 
 # Jan 27
 
- - [ ] status reports
- - [ ] start public key crypto
- - [ ] then talk about fast computation of inverses and powers modulo n, which make crypto possible.
+ - [ ] office hours and homework reminder
+ - [ ] status reports:  (New tags; also, I wrote most "linked projects" sunday morning, but not enough for automatic homework collection... yet)
+ - [ ] demo fast computation of powers modulo n; idea that makes public key crypto possible
+ - [ ] diffie-hellman: computer demo/explanation, then explain again on whiteboard in detail
+ - [ ] rsa: sketch on whiteboard
 
 # Jan 24
 
  - [x] status reports
- - [ ] computer examples of: euler phi function, euler's theorem, wilson's theorem, crt
- - [ ] prove Chinese Remainder Theorem on whiteboard
+ - [x] computer examples of: euler phi function, euler's theorem, wilson's theorem, crt
+ - [x] prove Chinese Remainder Theorem on whiteboard
 
 # Jan 22
 
