@@ -1,10 +1,10 @@
-︠21305ab2-f3f9-4b5d-bcd0-6d48521dfd3a︠
+︠21305ab2-f3f9-4b5d-bcd0-6d48521dfd3ai︠
 %md
 # January 24, 2014: Chinese Remainder Theorem
 
  - screencast: <http://youtu.be/KT4smXTzY8U>
  - whiteboard: <http://youtu.be/oFM_NNoWR7U>
-︡9c5a8faa-5371-4a5a-8dfc-97adfa6179cc︡{"html":"<h1>Lecture for January 24, 2014: Chinese Remainder Theorem</h1>\n\n<ul>\n<li>screencast:</li>\n<li>whiteboard:</li>\n</ul>\n"}︡
+︡bd6990fb-9c99-40e9-9b1e-2991f76cf81e︡{"html":"<h1>January 24, 2014: Chinese Remainder Theorem</h1>\n\n<ul>\n<li>screencast: <a href=\"http://youtu.be/KT4smXTzY8U\">http://youtu.be/KT4smXTzY8U</a></li>\n<li>whiteboard: <a href=\"http://youtu.be/oFM_NNoWR7U\">http://youtu.be/oFM_NNoWR7U</a></li>\n</ul>\n"}︡
 ︠aec94b5c-9ae4-46b1-8c36-44004645f86d︠
 
 
