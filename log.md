@@ -1,7 +1,10 @@
 # Jan 29
 
  - [ ] status reports
- - [ ] rsa
+ - [ ] homework: reminder -- submit yours tonight
+ - [ ] homework: new homework assignment; go over it.
+ - [ ] rsa: on the whiteboard (turn on quicktime recorder)
+ - [ ] rsa: try it out in practice with somebody in the class
 
 # Jan 27
 

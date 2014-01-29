@@ -2,9 +2,23 @@
 %md
 # January 29, 2014: Public-key Cryptography, part 2 (RSA)
 
- - screencast:
-︡7abaa1be-fda1-4e1a-be5e-ca06282afdfb︡{"html":"<h1>January 29, 2014: Public-key Cryptography, part 2.</h1>\n\n<ul>\n<li>screencast:</li>\n</ul>\n"}︡
-︠f438e821-7550-4556-b5a9-fc240c1670b2︠
+ - screencast: <>
+ - whiteboard: <>
+
+**Approach:** we will focus on the core number-theoretic ideas behind public-key crypto for now, completely ignoring the nice infrastructure that must be added on top in order to make it pleasant to use and more secure.
+
+︡52b76a93-bd08-46de-9129-4385e536a6c5︡{"html":"<h1>January 29, 2014: Public-key Cryptography, part 2 (RSA)</h1>\n\n<ul>\n<li>screencast: &lt;&gt;</li>\n<li>whiteboard: &lt;&gt;</li>\n</ul>\n\n<p><strong>Approach:</strong> we will focus on the core number-theoretic ideas behind public-key crypto for now, completely ignoring the nice infrastructure that must be added on top in order to make it pleasant to use and more secure.</p>\n"}︡
+︠b5da1cb0-19e3-47d7-9b9b-eb9c34eb7f8fi︠
+%md
+
+## Whiteboard...
+
+**(explain the theoretical idea behind RSA and how it works)**
+
+︡185efc43-7ddd-492c-bacd-58ffa7354d1e︡{"html":"<h2>Whiteboard&#8230;</h2>\n\n<p><strong>(explain the theoretical idea behind RSA and how it works)</strong></p>\n"}︡
+︠6dec4c09-25c3-49e0-83c6-7507a553e3d7︠
+
+︠f438e821-7550-4556-b5a9-fc240c1670b2i︠
 rsa={}
 
 @interact
@@ -35,10 +49,70 @@ my_rsa['e']
 ︠3562f173-8cca-40c5-972d-e67aeccbe5fa︠
 my_rsa['n']
 ︡9dc6ddd9-72a1-4c3d-9021-98e0d3ef1bbf︡{"stdout":"651790867435205665208048899946415370153\n"}︡
-︠a41fa189-fa29-4197-a4ec-9fd59e8b61dd︠
+︠a41fa189-fa29-4197-a4ec-9fd59e8b61ddi︠
+%md
+
+## A live demo with somebody in the class...
+
+### Part 1: receive a message
+
+- I will put an $e$ and an $n$ into a chat.
+
+- Then wait for a number back.
+
+- Then we will decrypt the number.
+︡6b65f448-90e9-4426-b620-0441a69f8ee1︡{"html":"<h2>A live demo with somebody in the class&#8230;</h2>\n\n<h3>Part 1: receive a message</h3>\n\n<ul>\n<li><p>I will put an $e$ and an $n$ into a chat.</p></li>\n<li><p>Then wait for a number back.</p></li>\n<li><p>Then we will decrypt the number.</p></li>\n</ul>\n"}︡
+︠fc4637c8-113e-4828-a71d-98538066dbc5︠
+
+︠bf346b69-5026-4b2b-b3d1-6bf0a681c3ce︠
+
+
+︠7d68ebfb-d9d6-4048-b7fc-25adf054e0ffi︠
+%md
+
+### Part 2: send a message
+
+- Student will make up an $e$ and an $n$ and paste them into a chat.
+
+- Then we will encrypt message to student.
+
+- Student will decrypt it.
+
+︡bceb6ce0-32f6-41cd-b401-ac3b322d9822︡{"html":"<h3>Part 2: send a message</h3>\n\n<ul>\n<li><p>Student will make up an $e$ and an $n$ and paste them into a chat.</p></li>\n<li><p>Then we will encrypt message to student.</p></li>\n<li><p>Student will decrypt it.</p></li>\n</ul>\n"}︡
+︠403b991d-bd11-4b8b-92b3-96b7eec08b49︠
+
+
+︠d504562a-8c66-4d10-a6e6-59fa26428865︠
 
 
 
+︠03096d94-11c7-4a38-b531-ddc135dd3ae8i︠
+%md
+
+### Part 3: sign a message
+
+- Student will make up a message
+
+- Student will encrypt message with their *decryption* key.
+
+- Send it.   We will verify the signature.
+
+
+
+
+
+
+
+
+
+︡b1f7dddd-4172-4914-a827-3974a0155a5c︡{"html":"<h3>Part 3: sign a message</h3>\n\n<ul>\n<li><p>Student will make up a message</p></li>\n<li><p>Student will encrypt message with their <em>decryption</em> key.</p></li>\n<li><p>Send it.   We will verify the signature.</p></li>\n</ul>\n"}︡
+︠b8120e93-414a-4b1f-99df-7526eaabe6c5︠
+
+︠146f72ed-3b26-4567-82bb-211c4c56747f︠
+
+︠b44b6e97-1a3e-42d9-9a21-2a9b9e0174df︠
+
+︠c1d153ed-3988-4140-b459-e5b125b0bd0c︠
 
 ︠cf1de8c9-cb90-4262-9274-0f174e9459ffi︠
 %md
