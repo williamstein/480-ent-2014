@@ -2,12 +2,11 @@
 %md
 # January 29, 2014: Public-key Cryptography, part 2 (RSA)
 
- - screencast: <>
- - whiteboard: <>
+ - whiteboard: <http://youtu.be/oLda6PVMpxw>
 
 **Approach:** we will focus on the core number-theoretic ideas behind public-key crypto for now, completely ignoring the nice infrastructure that must be added on top in order to make it pleasant to use and more secure.
 
-︡52b76a93-bd08-46de-9129-4385e536a6c5︡{"html":"<h1>January 29, 2014: Public-key Cryptography, part 2 (RSA)</h1>\n\n<ul>\n<li>screencast: &lt;&gt;</li>\n<li>whiteboard: &lt;&gt;</li>\n</ul>\n\n<p><strong>Approach:</strong> we will focus on the core number-theoretic ideas behind public-key crypto for now, completely ignoring the nice infrastructure that must be added on top in order to make it pleasant to use and more secure.</p>\n"}︡
+︡566a9ce2-e84c-4dd2-8120-e4d60ce4c6de︡{"html":"<h1>January 29, 2014: Public-key Cryptography, part 2 (RSA)</h1>\n\n<ul>\n<li>whiteboard: <a href=\"http://youtu.be/oLda6PVMpxw\">http://youtu.be/oLda6PVMpxw</a></li>\n</ul>\n\n<p><strong>Approach:</strong> we will focus on the core number-theoretic ideas behind public-key crypto for now, completely ignoring the nice infrastructure that must be added on top in order to make it pleasant to use and more secure.</p>\n"}︡
 ︠b5da1cb0-19e3-47d7-9b9b-eb9c34eb7f8fi︠
 %md
 
