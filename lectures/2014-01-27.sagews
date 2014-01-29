@@ -2,21 +2,20 @@
 %md
 # January 27, 2014: Public-key Cryptography, part 1.
 
- - screencast: <>
- - whiteboard: <>
-︡6518c5b6-6c5a-4dfa-b40f-13c310958470︡{"html":"<h1>January 27, 2014: Public-key Cryptography, part 1.</h1>\n\n<ul>\n<li>screencast: &lt;&gt;</li>\n<li>whiteboard: &lt;&gt;</li>\n</ul>\n"}︡
-︠aec94b5c-9ae4-46b1-8c36-44004645f86di︠
+ - screencast: <http://youtu.be/7Y4m1nHN_aA>
+︡fd59554f-2106-4a79-9de3-fe59b4f16ea0︡{"html":"<h1>January 27, 2014: Public-key Cryptography, part 1.</h1>\n\n<ul>\n<li>screencast: <a href=\"http://youtu.be/7Y4m1nHN_aA\">http://youtu.be/7Y4m1nHN_aA</a></li>\n</ul>\n"}︡
+︠aec94b5c-9ae4-46b1-8c36-44004645f86dii︠
 md("## Raising numbers to large powers modulo $n$\n... is fast!")
 
-@interact(layout=[['a','b','n']])
+@interact#(layout=[['a','b','n']])
 def f(a=2,b=3,n=5):
     t = cputime()
     r = Mod(a,n)^b
     tm = cputime(t)
     md("$$%s ^ {%s} \\equiv %s \\pmod{%s}$$"%(a,b,r,n))
     print "Time (seconds):", tm
-︡afa0d95d-ed38-47ba-a901-5272a0c493fd︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",4,null],["b",4,null],["n",4,null]],[["",12,null]]],"id":"5c81c064-bcf1-4ff3-a6e5-559e693aa4e0","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
-︠4c3e8916-475b-4d37-ad3c-5e989eb437c3︠
+︡e91a3797-0848-4a78-b30a-7c97d1035d8a︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",12,null]],[["b",12,null]],[["n",12,null]],[["",12,null]]],"id":"404bffc4-ca95-413c-b5dd-d55d5e9c9009","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︠4e27bd74-73a6-4eb7-9a04-355a4eb43872︠
 
 
 
@@ -26,6 +25,26 @@ def f(a=2,b=3,n=5):
 
 
 
+
+
+︠4c3e8916-475b-4d37-ad3c-5e989eb437c3i︠
+
+
+
+
+%md
+## Explain Diffie-Hellman on the whiteboard...
+
+First, check out <http://www.ams.org/mathscinet/search/publdoc.html?arg3=&co4=AND&co5=AND&co6=AND&co7=AND&dr=all&pg4=AUCN&pg5=AUCN&pg6=PC&pg7=ALLF&pg8=ET&review_format=html&s4=diffie&s5=hellman&s6=&s7=&s8=All&vfpref=html&yearRangeFirst=&yearRangeSecond=&yrop=eq&r=2&mx-pid=437208>
+
+︡c3ac102e-b969-421d-8e75-f2769cd9d9f7︡{"html":"<h2>Explain Diffie-Hellman on the whiteboard&#8230;</h2>\n\n<p>First, check out <a href=\"http://www.ams.org/mathscinet/search/publdoc.html?arg3=&amp;co4=AND&amp;co5=AND&amp;co6=AND&amp;co7=AND&amp;dr=all&amp;pg4=AUCN&amp;pg5=AUCN&amp;pg6=PC&amp;pg7=ALLF&amp;pg8=ET&amp;review_format=html&amp;s4=diffie&amp;s5=hellman&amp;s6=&amp;s7=&amp;s8=All&amp;vfpref=html&amp;yearRangeFirst=&amp;yearRangeSecond=&amp;yrop=eq&amp;r=2&amp;mx-pid=437208\">http://www.ams.org/mathscinet/search/publdoc.html?arg3=&amp;co4=AND&amp;co5=AND&amp;co6=AND&amp;co7=AND&amp;dr=all&amp;pg4=AUCN&amp;pg5=AUCN&amp;pg6=PC&amp;pg7=ALLF&amp;pg8=ET&amp;review_format=html&amp;s4=diffie&amp;s5=hellman&amp;s6=&amp;s7=&amp;s8=All&amp;vfpref=html&amp;yearRangeFirst=&amp;yearRangeSecond=&amp;yrop=eq&amp;r=2&amp;mx-pid=437208</a></p>\n"}︡
+︠ee3f1e0f-2be8-42a7-9007-b18b65504e10︠
+salvus.file('diffie-hellman-review.png')
+
+
+
+
+︡23e2b36e-697b-498c-b8d9-aabaef671c22︡{"once":false,"file":{"show":true,"uuid":"fa5ce71a-6152-4bd3-996c-e37e214196f1","filename":"diffie-hellman-review.png"}}︡
 ︠96abf908-4e3c-42f6-821b-2585c9d29f57︠
 md("## Diffie-Hellman key exchange demo", hide=False)
 
@@ -33,27 +52,34 @@ md("## Diffie-Hellman key exchange demo", hide=False)
 set_random_seed(0)
 p = next_prime(ZZ.random_element(2^512))
 print "p=",p
-︡0933d2e2-52b5-4a7c-b77b-dd9c9d0ed484︡{"html":"<h2>Diffie-Hellman key exchange demo</h2>\n"}︡{"stdout":"p= 5372617329289865003922404599521029743879407240331442034473769227090926652513391938718622969901716609964397540979209966100873862373968442379743697516525277\n"}︡
+︡5f7878bd-d6b8-4310-91e8-e9f15ca6e094︡{"html":"<h2>Diffie-Hellman key exchange demo</h2>\n"}︡{"stdout":"p= 5372617329289865003922404599521029743879407240331442034473769227090926652513391938718622969901716609964397540979209966100873862373968442379743697516525277\n"}︡
 ︠44e758bf-7266-4f76-bd8a-dcf83890a5c5︠
 # Step 2. Generate a secret random number
 set_random_seed()    # this is harder than it looks :-)
 m = ZZ.random_element(p)
-print "m=", m
-︡98bed509-5c6f-4a63-8eee-b28615bb7366︡{"stdout":"m= 3975408305143091213989404077423635422991832092015486019732241112895829201039442819215483000499409368854904393133275645921330154632804555617654032049553050\n"}︡
+#print "m=", m
+︡d9228e39-677f-4185-926e-c78087d54d9a︡
+︠cd83eec6-0570-4457-a1e1-a52d96686a25︠
+str(m)[:5]
+︡1d7d661b-f60a-4de7-817e-ff90f214eea5︡{"stdout":"'50141'\n"}︡
+︠175edf16-0326-4ee7-a051-27b165541093︠
+len(str(m))
+︡48a71030-51f9-4a2e-aae9-a85fc518dbbb︡{"stdout":"154\n"}︡
 ︠70bffcdd-6557-4084-8d2c-957f562514a5︠
 # Step 3: Tell everybody 2^m (mod p)
 t = Mod(2,p)^m
 print "2^m (mod p) =", t
-︡25d1bc72-2e2c-410e-aafb-ea4847910298︡{"stdout":"2^m (mod p) = 3309652881929587784109068663843850320267219568524657966816975994117503880300883075866952199486305557357721728936853105386406714332615418085805895850533794\n"}︡
+︡3aa4aaab-f9fa-4c19-8848-30f7eeafc890︡{"stdout":"2^m (mod p) = 903393247070070553805167958800868357953388241311620265721076242202035435575129587598404747662489128996081950665805166157825117531516727551286772516860485\n"}︡
 ︠5fe1ad52-425b-476a-8157-c578de8d7fbb︠
 # Step 4: Compute the shared secret
 
 # Paste other person's t here:
-t0 =
+t0 = 2575162461423025752057855747619341744095610541078885015867129323713492797697611003235397239765313722103873639396782412746268105527086389359102702371104826
 
-secret = t0^m
+secret = Mod(t0,p)^m  # you can't do this!
 print "shared secret=", secret
 
+︡4f373bcb-cb89-4efb-a347-b1f5b6544ccf︡{"stdout":"shared secret= 1490320387249064792409392537074584715600209776245472771238385691562075975829412648763936980986605215275215366860064409471494633605160365693469674399203812\n"}︡
 ︠4b40cd6c-024a-4c64-95f5-27fb41eeaccai︠
 %md
 ## The Discrete Log Problem

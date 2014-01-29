@@ -1,15 +1,16 @@
 # Jan 29
 
  - [ ] status reports
- - [ ] more public-key cryptography
+ - [ ] rsa
 
 # Jan 27
 
- - [ ] office hours and homework reminder
- - [ ] status reports:  (New tags; also, I wrote most "linked projects" sunday morning, but not enough for automatic homework collection... yet)
- - [ ] demo fast computation of powers modulo n; idea that makes public key crypto possible
+ - [x] homework 1 graded
+        # GRADE
+ - [x] office hours and homework reminder
+ - [x] status reports / questions (?):  (New tags; also, I wrote most "linked projects" sunday morning, but not enough for automatic homework collection... yet)
+-->  - [ ] demo fast computation of powers modulo n; idea that makes public key crypto possible
  - [ ] diffie-hellman: computer demo/explanation, then explain again on whiteboard in detail
- - [ ] rsa: sketch on whiteboard
 
 # Jan 24
 

@@ -38,7 +38,7 @@ Give proof on the board....
 
 This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.
 ︡6764aef1-f3bb-4514-bfea-b7412ad905c4︡{"html":"<h1>Largest KNOWN Prime</h1>\n\n<p>&#8220;As of October 2013, the largest known prime number is $2^{57,885,161} − 1$,  a number with 17,425,170 digits.&#8221; &#8211; see <a href=\"http://en.wikipedia.org/wiki/Largest_known_prime_number\">http://en.wikipedia.org/wiki/Largest_known_prime_number</a></p>\n\n<p>This is a Mersenne prime.  It is the 48th Mersenne prime, i.e., of the form $2^p-1$.</p>\n"}︡
-︠e9ff0a6e-1cd2-4274-b21b-116d805ef516︠
+︠e9ff0a6e-1cd2-4274-b21b-116d805ef516i︠
 %time p = 2^57885161 - 1
 ︡0d961a7d-1063-4a74-a53a-a0770a2a59cd︡{"stdout":"CPU time: 0.01 s, Wall time: 0.01 s\n"}︡
 ︠374c3e3c-cd9b-402f-80f7-bff93f486599︠
