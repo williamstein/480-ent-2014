@@ -111,17 +111,43 @@ Leonard's public key is $(e,n)=(327581, 226504059158553983043370996629415887361)
 3. Assume that our universe has a lifespan of $34$ billion years old.   How many "lifespan of the universes" would it take to do $10^{100}$ operations?
 
 ︡c1d3e0c1-cb39-48af-84fe-38efb86b10df︡{"html":"<h3>Problem 4: Computational Complexity: $10^{100}$ operations</h3>\n\n<ol>\n<li><p>Search around online for an estimate for the number of operations (let&#8217;s say &#8220;floating point operations&#8221; or FLOPS) that  the world&#8217;s faster supercomputer can do in 1 second.  Call this integer $B$.     (If you&#8217;re curious, you might also search for estimates of the number of FLOPS being &#8220;wasted&#8221; on bitcoin mining or searching for large prime numbers right now&#8230;)</p></li>\n<li><p>Assuming you have a dedicated computer that can do $B$ &#8220;operations per second&#8221;, how many years will it take to do $10^{100}$ operations.  (Obviously, completely ignore things like your computer breaking, getting better, etc.!)</p></li>\n<li><p>Assume that our universe has a lifespan of $34$ billion years old.   How many &#8220;lifespan of the universes&#8221; would it take to do $10^{100}$ operations?</p></li>\n</ol>\n"}︡
+︠2040f268-b89e-498e-9ebb-a00ad1c6f845︠
+
+︠98fcfadb-5c19-4489-95b9-2ddc49d7d864︠
+
+︠121d919b-8481-44d3-94d7-1cbe4deb133a︠
+
+︠598f115c-755f-4ee8-a28b-0fd57ee4caa4i︠
+%md
+## Problem 5: Create a GPG key
+
+Evidently, many really smart people find public key cryptography **extremely hard** to use for email in practice.   I have professional colleagues who are amazing programs and world-class experts in number theory, and still they seem incapable of setting up GPG to exchange encrypted emails with me.
+
+So your turn.  Create a GPG (Gnu Privacy Guard) key and paste the public key below.  I can now use this key to send you
+messages.
+
+(You can install GPG on your computer, or if you don't care too much, just type "+New" in SageMathCloud, create a Terminal, and in the terminal you can use the "gpg" command.  You may have to type "man gpg" or google for tutorials to figure out how to use it.  Please succeed, since I want to be able to tell my colleagues that every undergrad in my elementary number theory class was able to do this!)
+
+
+
+︡870a6bbc-2652-4229-8ead-13a154c99fda︡{"html":"<h2>Problem 5: Create a GPG key</h2>\n\n<p>Evidently, many really smart people find public key cryptography <strong>extremely hard</strong> to use for email in practice.   I have professional colleagues who are amazing programs and world-class experts in number theory, and still they seem incapable of setting up GPG to exchange encrypted emails with me.</p>\n\n<p>So your turn.  Create a GPG (Gnu Privacy Guard) key and paste the public key below.  I can now use this key to send you\nmessages.</p>\n\n<p>(You can install GPG on your computer, or if you don&#8217;t care too much, just type &#8220;+New&#8221; in SageMathCloud, create a Terminal, and in the terminal you can use the &#8220;gpg&#8221; command.  You may have to type &#8220;man gpg&#8221; or google for tutorials to figure out how to use it.  Please succeed, since I want to be able to tell my colleagues that every undergrad in my elementary number theory class was able to do this!)</p>\n"}︡
+︠8bc692eb-8eb6-48ce-a169-de3e980d76c2︠
+
 ︠6a613f1e-47da-4e4a-bb46-8ec69e7d3a82︠
 
 ︠e72cc2ac-0ccc-4bd9-b3e4-9c629413fb18︠
 
+︠4525f1ad-9f0c-45ad-8653-996d4898aa64︠
+
 ︠f763d9ff-4ffd-4540-bdeb-418f0015ea66i︠
 %md
-### Problem 5: Your Project
+### Problem 6: Your Project
 
 Write a really rough draft of your project.  Include a link here so I can look at it.
 
-︡826a4377-ae8c-4952-80e8-02ce758e9eff︡{"html":"<h3>Problem 5: Your Project</h3>\n\n<p>Write a really rough draft of your project.  Include a link here so I can look at it.</p>\n"}︡
+︡601a744a-41f3-4868-bbaf-0e0031d669d9︡{"html":"<h3>Problem 6: Your Project</h3>\n\n<p>Write a really rough draft of your project.  Include a link here so I can look at it.</p>\n"}︡
+︠ef98d31a-1786-4e39-ba87-6b6489434702︠
+
 ︠45dc00cf-4cee-43fc-b27e-613443f30c81︠
 
 ︠bd936675-55a0-4b66-bf2c-d5a3f5e1b9e5︠
