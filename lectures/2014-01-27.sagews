@@ -1,6 +1,6 @@
-︠21305ab2-f3f9-4b5d-bcd0-6d48521dfd3ai︠
+︠21305ab2-f3f9-4b5d-bcd0-6d48521dfd3a︠
 %md
-# January 27, 2014: Public-key Cryptography, part 1.
+# January 27, 2014: Public-key Cryptography, part 1 (Diffie-Hellman).
 
  - screencast: <http://youtu.be/7Y4m1nHN_aA>
 ︡fd59554f-2106-4a79-9de3-fe59b4f16ea0︡{"html":"<h1>January 27, 2014: Public-key Cryptography, part 1.</h1>\n\n<ul>\n<li>screencast: <a href=\"http://youtu.be/7Y4m1nHN_aA\">http://youtu.be/7Y4m1nHN_aA</a></li>\n</ul>\n"}︡

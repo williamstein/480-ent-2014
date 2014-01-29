@@ -23,65 +23,109 @@
 ### Problem 1: Multiplicative Functions
 
 Recall that a *multiplicative function* is a function $f$ on the positive integers such that if $\gcd(a,b)=1$, then $f(ab)=f(a)f(b)$.
-Give four examples of multiplicative functions.
+Give <b>four different examples</b> of multiplicative functions.
 
 [Hint: you can either try to make something up yourself or search around online and in books.  This isn't a problem that involves searching for 3 such functions that I've mentioned in class or the book.]
-︡57062093-5053-4da7-a3ed-ab07396d0456︡{"html":"<h3>Problem 1: Multiplicative Functions</h3>\n\n<p>Recall that a <em>multiplicative function</em> is a function $f$ on the positive integers such that if $\\gcd(a,b)=1$, then $f(ab)=f(a)f(b)$.\nGive four examples of multiplicative functions.</p>\n\n<p>[Hint: you can either try to make something up yourself or search around online and in books.  This isn&#8217;t a problem that involves searching for 3 such functions that I&#8217;ve mentioned in class or the book.]</p>\n"}︡
+︡25ae9623-b4f1-42d0-9f73-6cb7c1a93b03︡{"html":"<h3>Problem 1: Multiplicative Functions</h3>\n\n<p>Recall that a <em>multiplicative function</em> is a function $f$ on the positive integers such that if $\\gcd(a,b)=1$, then $f(ab)=f(a)f(b)$.\nGive <b>four different examples</b> of multiplicative functions.</p>\n\n<p>[Hint: you can either try to make something up yourself or search around online and in books.  This isn&#8217;t a problem that involves searching for 3 such functions that I&#8217;ve mentioned in class or the book.]</p>\n"}︡
+︠626a2224-ce0b-445d-ac6c-22c6666ab8b7︠
+
+︠56aadc5d-82ed-4a73-ba26-8fbfc76a6482︠
+
 ︠6f5419e7-b641-4849-8b14-06ba34684b2e︠
 
 ︠246b3836-74d6-461c-9279-0cd9d9724f19︠
 
-︠c592e996-7160-47c2-be34-462defb7ab82︠
+︠c592e996-7160-47c2-be34-462defb7ab82i︠
+%html <img src="http://b.vimeocdn.com/ts/152/141/152141960_640.jpg" width=256 class="pull-right">
+
 %md
-### Problem 2:
-︡c6958156-c9b5-49af-9dee-448a64ca990c︡{"html":"<h3>Problem 2:</h3>\n"}︡
+### Problem 2: Diffie-Hellman
+
+
+
+Suppose Whitfield and Martin would like to agree on a secret shared number using their key exchange.
+They agree on working modulo the number $p=2^{1279}-1$ and they use element $g=2$.
+Whitfield chooses the secret random number $n=923840$ and Martin chooses the secret random number $m=13423498590$.
+
+1. Compute $3^{p-1}\pmod{p}$.  Does this increase your confidence that $p$ is really prime?   If not, try the `is_pseudoprime` function in Sage.
+
+2. Compute $t=2^n\pmod{p}$ and $t'=2^m\pmod{p}$.
+
+3. Compute the secret number that Whitfiled and Martin share.
+
+
+
+︡b61457aa-5bf1-41dd-951f-09f7f3525138︡{"html":"<img src=\"http://b.vimeocdn.com/ts/152/141/152141960_640.jpg\" width=256 class=\"pull-right\">"}︡{"html":"<h3>Problem 2: Diffie-Hellman</h3>\n\n<p>Suppose Whitfield and Martin would like to agree on a secret shared number using their key exchange.\nThey agree on working modulo the number $p=2^{1279}-1$ and they use element $g=2$.\nWhitfield chooses the secret random number $n=923840$ and Martin chooses the secret random number $m=13423498590$.</p>\n\n<ol>\n<li><p>Compute $3^{p-1}\\pmod{p}$.  Does this increase your confidence that $p$ is really prime?   If not, try the <code>is_pseudoprime</code> function in Sage.</p></li>\n<li><p>Compute $t=2^n\\pmod{p}$ and $t'=2^m\\pmod{p}$.</p></li>\n<li><p>Compute the secret number that Whitfiled and Martin share.</p></li>\n</ol>\n"}︡
+︠16df529a-b094-430a-b000-c7d861a6b59c︠
+
+︠9f9b0474-71b1-4c62-ab18-8c889be136cb︠
+
 ︠2e047d7d-eae2-403e-8cd2-0d8f9c227837︠
 
 ︠652877af-eb9b-4b6d-b67d-f8042c6af211︠
 
-︠6f325b32-27cc-4576-88da-800d890de20c︠
-%md
-### Problem 3:
+︠a287b40a-ba83-4ae0-9f65-7856b19b40a3︠
 
+︠6f325b32-27cc-4576-88da-800d890de20ci︠
+%html <img src="http://www.usc.edu/dept/molecular-science/pictures/RSA-2003.jpg" class="pull-right" width=300>
+
+%md
+### Problem 3: RSA
+
+
+Suppose Ron, Adi, and Leonard would like to send each other secret emails about super secret stuff.
+
+Ron's public key is $(e,n)=(94958501, 265407440875556726158542310575789523471)$.
+
+Adi's public key is $(e,n)=(74853241, 76441922272452716668955925887300216327)$.
+
+Leonard's public key is $(e,n)=(327581, 226504059158553983043370996629415887361)$.
+
+1. Determine Ron, Adi and Leonard's private keys.  (How long does this take?  Obviously, the $n$ is not big enough for serious work!)
+
+2. Adi would like to encrypt a message encoded as the number $12345$ to Ron.  What number does he send?
+
+3. Adi would like to encrypt a message encoded as the number $12345$ to Leonard.  What number does he send?
+
+4. Adi receives a message encrypted as the number $11137345931317652152843005353340736765$.  What is the number that was encrypted?
+
+5. Adi creates a message encoded as the number $13333337$.  He wants to digitally sign this message, to prove it is from him.  What is the signature?  (Hint, encrypt $13333337$ using Adi's private key instead of his public key.)
+
+6. Adi sees a document that purports to be from Ron. The document is $20141337$ with digital signature $83546213764177669531374943194511190808$.  Is the digital signature correct? (Hint: encrypt the signature using Ron's public key.)
+
+
+︡13bbe7cd-59b5-4b5e-8957-8e6fd26abed8︡{"html":"<img src=\"http://www.usc.edu/dept/molecular-science/pictures/RSA-2003.jpg\" class=\"pull-right\" width=300>"}︡{"html":"<h3>Problem 3: RSA</h3>\n\n<p>Suppose Ron, Adi, and Leonard would like to send each other secret emails about super secret stuff.</p>\n\n<p>Ron&#8217;s public key is $(e,n)=(94958501, 265407440875556726158542310575789523471)$.</p>\n\n<p>Adi&#8217;s public key is $(e,n)=(74853241, 76441922272452716668955925887300216327)$.</p>\n\n<p>Leonard&#8217;s public key is $(e,n)=(327581, 226504059158553983043370996629415887361)$.</p>\n\n<ol>\n<li><p>Determine Ron, Adi and Leonard&#8217;s private keys.  (How long does this take?  Obviously, the $n$ is not big enough for serious work!)</p></li>\n<li><p>Adi would like to encrypt a message encoded as the number $12345$ to Ron.  What number does he send?</p></li>\n<li><p>Adi would like to encrypt a message encoded as the number $12345$ to Leonard.  What number does he send?</p></li>\n<li><p>Adi receives a message encrypted as the number $11137345931317652152843005353340736765$.  What is the number that was encrypted?</p></li>\n<li><p>Adi creates a message encoded as the number $13333337$.  He wants to digitally sign this message, to prove it is from him.  What is the signature?  (Hint, encrypt $13333337$ using Adi&#8217;s private key instead of his public key.)</p></li>\n<li><p>Adi sees a document that purports to be from Ron. The document is $20141337$ with digital signature $83546213764177669531374943194511190808$.  Is the digital signature correct? (Hint: encrypt the signature using Ron&#8217;s public key.)</p></li>\n</ol>\n"}︡
 ︠b8453f27-369c-43da-84a3-1ff48b41f827︠
 
 ︠5b864443-f9b1-40a3-97fb-e0f7cf582c50︠
 
-︠48cc7aad-876c-4dbe-a186-ab12540b1532︠
+︠ca02ef48-750e-4fad-ad02-71db414eaae9i︠
 
 %md
-### Problem 4:
+### Problem 4: Computational Complexity: $10^{100}$ operations
 
+1. Search around online for an estimate for the number of operations (let's say "floating point operations" or FLOPS) that  the world's faster supercomputer can do in 1 second.  Call this integer $B$.     (If you're curious, you might also search for estimates of the number of FLOPS being "wasted" on bitcoin mining or searching for large prime numbers right now...)
+
+2. Assuming you have a dedicated computer that can do $B$ "operations per second", how many years will it take to do $10^{100}$ operations.  (Obviously, completely ignore things like your computer breaking, getting better, etc.!)
+
+3. Assume that our universe has a lifespan of $34$ billion years old.   How many "lifespan of the universes" would it take to do $10^{100}$ operations?
+
+︡c1d3e0c1-cb39-48af-84fe-38efb86b10df︡{"html":"<h3>Problem 4: Computational Complexity: $10^{100}$ operations</h3>\n\n<ol>\n<li><p>Search around online for an estimate for the number of operations (let&#8217;s say &#8220;floating point operations&#8221; or FLOPS) that  the world&#8217;s faster supercomputer can do in 1 second.  Call this integer $B$.     (If you&#8217;re curious, you might also search for estimates of the number of FLOPS being &#8220;wasted&#8221; on bitcoin mining or searching for large prime numbers right now&#8230;)</p></li>\n<li><p>Assuming you have a dedicated computer that can do $B$ &#8220;operations per second&#8221;, how many years will it take to do $10^{100}$ operations.  (Obviously, completely ignore things like your computer breaking, getting better, etc.!)</p></li>\n<li><p>Assume that our universe has a lifespan of $34$ billion years old.   How many &#8220;lifespan of the universes&#8221; would it take to do $10^{100}$ operations?</p></li>\n</ol>\n"}︡
 ︠6a613f1e-47da-4e4a-bb46-8ec69e7d3a82︠
 
 ︠e72cc2ac-0ccc-4bd9-b3e4-9c629413fb18︠
 
-︠48cc7aad-876c-4dbe-a186-ab12540b1532︠
+︠f763d9ff-4ffd-4540-bdeb-418f0015ea66i︠
 %md
-### Problem 5:
+### Problem 5: Your Project
 
+Write a really rough draft of your project.  Include a link here so I can look at it.
+
+︡826a4377-ae8c-4952-80e8-02ce758e9eff︡{"html":"<h3>Problem 5: Your Project</h3>\n\n<p>Write a really rough draft of your project.  Include a link here so I can look at it.</p>\n"}︡
 ︠45dc00cf-4cee-43fc-b27e-613443f30c81︠
 
-︠e0c16655-886c-45c3-a2e1-ba9454ba380f︠
-
-︠48cc7aad-876c-4dbe-a186-ab12540b1532︠
-%md
-### Problem 6:
-
-︠26aad33d-74f8-4b9f-a47d-00c6186adad7︠
-
-︠78e31c09-7ed2-407c-a3ee-af0d168407db︠
-
-︠48cc7aad-876c-4dbe-a186-ab12540b1532︠
-%md
-### Problem 7:
-
-︠137675ed-0923-4b92-9bc8-55abf6ff048c︠
-
-︠e30200c4-2c48-48b4-b88b-2bc59691883e︠
-
-︠48cc7aad-876c-4dbe-a186-ab12540b1532︠
-
+︠bd936675-55a0-4b66-bf2c-d5a3f5e1b9e5︠
+︠7b982694-bda5-4851-9842-22d1f7e9528c︠
 
 
 
