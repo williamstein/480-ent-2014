@@ -1,10 +1,17 @@
+# Jan 30
+
+ - [ ] status reports -- say more about your project
+ - [ ] rsa: very quick review on whiteboard
+ - [ ] rsa: turn project on and try it out in practice with somebody in the class
+ - [ ] rsa: some math -- "if you know phi(n) then you can factor n."
+
+
 # Jan 29
 
  - [x] homework: reminder -- submit yours tonight
  - [x] homework: new homework assignment; go over it.
  - [x] status reports
  - [x] rsa: on the whiteboard (turn on quicktime recorder)
- - [ ] rsa: try it out in practice with somebody in the class
 
 # Jan 27
 
