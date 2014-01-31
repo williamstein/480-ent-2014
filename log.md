@@ -1,9 +1,9 @@
 # Jan 29
 
- - [ ] status reports
- - [ ] homework: reminder -- submit yours tonight
- - [ ] homework: new homework assignment; go over it.
- - [ ] rsa: on the whiteboard (turn on quicktime recorder)
+ - [x] homework: reminder -- submit yours tonight
+ - [x] homework: new homework assignment; go over it.
+ - [x] status reports
+ - [x] rsa: on the whiteboard (turn on quicktime recorder)
  - [ ] rsa: try it out in practice with somebody in the class
 
 # Jan 27
@@ -12,8 +12,8 @@
         # GRADE
  - [x] office hours and homework reminder
  - [x] status reports / questions (?):  (New tags; also, I wrote most "linked projects" sunday morning, but not enough for automatic homework collection... yet)
--->  - [ ] demo fast computation of powers modulo n; idea that makes public key crypto possible
- - [ ] diffie-hellman: computer demo/explanation, then explain again on whiteboard in detail
+ - [x] demo fast computation of powers modulo n; idea that makes public key crypto possible
+ - [x] diffie-hellman: computer demo/explanation, then explain again on whiteboard in detail
 
 # Jan 24
 
