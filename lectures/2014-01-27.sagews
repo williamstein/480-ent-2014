@@ -4,7 +4,7 @@
 
  - screencast: <http://youtu.be/7Y4m1nHN_aA>
 ︡fd59554f-2106-4a79-9de3-fe59b4f16ea0︡{"html":"<h1>January 27, 2014: Public-key Cryptography, part 1.</h1>\n\n<ul>\n<li>screencast: <a href=\"http://youtu.be/7Y4m1nHN_aA\">http://youtu.be/7Y4m1nHN_aA</a></li>\n</ul>\n"}︡
-︠aec94b5c-9ae4-46b1-8c36-44004645f86dii︠
+︠aec94b5c-9ae4-46b1-8c36-44004645f86d︠
 md("## Raising numbers to large powers modulo $n$\n... is fast!")
 
 @interact#(layout=[['a','b','n']])
