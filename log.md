@@ -1,10 +1,15 @@
+# Feb 3
+
+ - [ ] announcement: we're doing chapter 6 next, on elliptic curves (so we can do the number theory part of bitcoin). so read ch 6.
+ - [ ] status reports -- general questions
+ - [ ] ec: introduction to elliptic curves
+
 # Jan 30
 
- - [ ] status reports -- say more about your project
- - [ ] rsa: very quick review on whiteboard
- - [ ] rsa: turn project on and try it out in practice with somebody in the class
- - [ ] rsa: some math -- "if you know phi(n) then you can factor n."
-
+ - [x] status reports -- say more about your project
+ - [x] rsa: very quick review on whiteboard
+ - [x] rsa: turn project on and try it out in practice with somebody in the class
+ - [x] rsa: some math -- "if you know phi(n) then you can factor n."
 
 # Jan 29
 
