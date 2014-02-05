@@ -1,9 +1,11 @@
-# Feb 5
- - [ ] homework due tonight: ask me last-minute questions after class
+# Feb 7
  - [ ] go over new homework (at least, what is ready)
- - [ ] status reports -- how are your projects going?
- - [ ] whiteboard -- quick review; curves of degree bigger than 3; then arithmetic of elliptic curves (the group law, group structure).
  - [ ] projector -- 2014-02-03.sagews = elliptic curve examples
+
+# Feb 5
+ - [x] homework due tonight: ask me last-minute questions after class
+ - [x] status reports -- how are your projects going?
+ - [x] whiteboard -- quick review; curves of degree bigger than 3; then arithmetic of elliptic curves (the group law, group structure).
 
 # Feb 3
 
