@@ -1,4 +1,4 @@
-︠21305ab2-f3f9-4b5d-bcd0-6d48521dfd3a︠
+︠21305ab2-f3f9-4b5d-bcd0-6d48521dfd3ai︠
 %md
 # January 27, 2014: Public-key Cryptography, part 1 (Diffie-Hellman).
 
@@ -14,7 +14,9 @@ def f(a=2,b=3,n=5):
     tm = cputime(t)
     md("$$%s ^ {%s} \\equiv %s \\pmod{%s}$$"%(a,b,r,n))
     print "Time (seconds):", tm
-︡e91a3797-0848-4a78-b30a-7c97d1035d8a︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",12,null]],[["b",12,null]],[["n",12,null]],[["",12,null]]],"id":"404bffc4-ca95-413c-b5dd-d55d5e9c9009","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︡3530ae1a-cd25-474c-964f-82ce5f4d84ec︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",12,null]],[["b",12,null]],[["n",12,null]],[["",12,null]]],"id":"67d2db8d-3fca-462f-bbfd-5d2d89cd37cf","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︠ab8d04b9-995d-4a99-a552-eb99dceb3629︠
+
 ︠4e27bd74-73a6-4eb7-9a04-355a4eb43872︠
 
 
@@ -48,11 +50,8 @@ salvus.file('diffie-hellman-review.png')
 ︠96abf908-4e3c-42f6-821b-2585c9d29f57︠
 md("## Diffie-Hellman key exchange demo", hide=False)
 
-# Step 1. Agree on a shared common prime
-set_random_seed(0)
-p = next_prime(ZZ.random_element(2^512))
-print "p=",p
-︡5f7878bd-d6b8-4310-91e8-e9f15ca6e094︡{"html":"<h2>Diffie-Hellman key exchange demo</h2>\n"}︡{"stdout":"p= 5372617329289865003922404599521029743879407240331442034473769227090926652513391938718622969901716609964397540979209966100873862373968442379743697516525277\n"}︡
+
+︡2d2ce1d9-be01-4265-9a60-33a85d93631e︡{"html":"<h2>Diffie-Hellman key exchange demo</h2>\n"}︡{"stdout":"p= 5372617329289865003922404599521029743879407240331442034473769227090926652513391938718622969901716609964397540979209966100873862373968442379743697516525277\n"}︡
 ︠44e758bf-7266-4f76-bd8a-dcf83890a5c5︠
 # Step 2. Generate a secret random number
 set_random_seed()    # this is harder than it looks :-)
@@ -67,10 +66,10 @@ len(str(m))
 ︡48a71030-51f9-4a2e-aae9-a85fc518dbbb︡{"stdout":"154\n"}︡
 ︠70bffcdd-6557-4084-8d2c-957f562514a5︠
 # Step 3: Tell everybody 2^m (mod p)
-t = Mod(2,p)^m
+p = 2 ^1279 - 1
 print "2^m (mod p) =", t
 
-︡3aa4aaab-f9fa-4c19-8848-30f7eeafc890︡{"stdout":"2^m (mod p) = 903393247070070553805167958800868357953388241311620265721076242202035435575129587598404747662489128996081950665805166157825117531516727551286772516860485\n"}︡
+︡2774a0da-5f81-4c0c-993a-c3841b687828︡{"stdout":"2^m (mod p) = 1\n"}︡
 ︠5fe1ad52-425b-476a-8157-c578de8d7fbb︠
 # Step 4: Compute the shared secret
 

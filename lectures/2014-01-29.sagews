@@ -19,6 +19,8 @@
 ︠6dec4c09-25c3-49e0-83c6-7507a553e3d7︠
 
 ︡34642f11-696e-4544-9ec7-d041c345d76e︡
+︠c4fc0a26-82ad-43a2-b595-e9ed1721990d︠
+
 ︠f438e821-7550-4556-b5a9-fc240c1670b2︠
 rsa={}
 
@@ -40,7 +42,7 @@ def f(bits=128, go=button('Make another RSA cryptosystem', classes="btn-large bt
     print "\nFull key:          = stored in a the global variable 'rsa'"
     global rsa
     rsa = {'e':e,'n':n,'d':d}
-︡81e915cc-b64a-458b-8d45-181202eda14f︡{"interact":{"style":"None","flicker":false,"layout":[[["bits",12,null]],[["go",12,null]],[["",12,null]]],"id":"af216148-2db2-48d3-9114-470fb86c17c5","controls":[{"control_type":"input-box","default":128,"label":"bits","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"bits","type":null},{"control_type":"button","default":"Make another RSA cryptosystem","label":"go","width":null,"classes":"btn-large btn-default fa fa-refresh","var":"go","icon":null}]}}︡
+︡ba4a1bf5-4d39-42b6-be53-9170832bb57f︡{"interact":{"style":"None","flicker":false,"layout":[[["bits",12,null]],[["go",12,null]],[["",12,null]]],"id":"3d62807b-910f-43a5-8deb-94995a0d24ed","controls":[{"control_type":"input-box","default":128,"label":"bits","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"bits","type":null},{"control_type":"button","default":"Make another RSA cryptosystem","label":"go","width":null,"classes":"btn-large btn-default fa fa-refresh","var":"go","icon":null}]}}︡
 ︠589ce708-923e-462a-ba57-ced36bce13d0︠
 my_rsa = dict(rsa)  # make a copy
 ︡1eb4dcb2-11b8-4250-9047-4c0f4c1ac2de︡
@@ -133,9 +135,12 @@ f(-1)
 
 ︡c5cb64c1-9ac8-4de6-bceb-a979c15672ff︡{"html":"<h3>Part 2: send a message</h3>\n\n<ul>\n<li><p>Student will make up an $e$ and an $n$ and paste them into a chat.</p></li>\n<li><p>Then we will encrypt message to student.</p></li>\n<li><p>Student will decrypt it.</p></li>\n</ul>\n"}︡
 ︠403b991d-bd11-4b8b-92b3-96b7eec08b49︠
+md
+
+factor(94958501)
 
 
-︡bd5ac49d-4375-4f4e-874d-92dbd10adfa8︡
+︡06cad9c0-9958-4212-b891-7ef19a8767ea︡{"stdout":"<sage_salvus.Markdown object at 0x681d8d0>\n"}︡{"stdout":"11^2 * 41 * 19141\n"}︡
 ︠d504562a-8c66-4d10-a6e6-59fa26428865︠
 
 
