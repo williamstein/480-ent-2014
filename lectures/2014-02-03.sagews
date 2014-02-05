@@ -2,9 +2,9 @@
 %md
 # February 3, 2014: Elliptic Curves, part 1
 
- - whiteboard:
- - projector:
-︡3b72b9db-1624-4460-8e30-713598543510︡{"html":"<h1>February 3, 2014: Elliptic Curves, part 1</h1>\n\n<ul>\n<li>whiteboard: </li>\n<li>projector:</li>\n</ul>\n"}︡
+ - whiteboard: <http://youtu.be/YRX3nAhBzCw>
+
+︡88458d48-0d58-4d2b-8ecd-9550d89d3fc2︡{"html":"<h1>February 3, 2014: Elliptic Curves, part 1</h1>\n\n<ul>\n<li>whiteboard: <a href=\"http://youtu.be/YRX3nAhBzCw\">http://youtu.be/YRX3nAhBzCw</a></li>\n</ul>\n"}︡
 ︠eb4b9219-083b-498a-a151-0f90c3531bd9i︠
 %md
 ## Whiteboard

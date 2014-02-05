@@ -1,8 +1,15 @@
+# Feb 5
+ - [ ] homework due tonight: ask me last-minute questions after class
+ - [ ] go over new homework (at least, what is ready)
+ - [ ] status reports -- how are your projects going?
+ - [ ] whiteboard -- quick review; curves of degree bigger than 3; then arithmetic of elliptic curves (the group law, group structure).
+ - [ ] projector -- 2014-02-03.sagews = elliptic curve examples
+
 # Feb 3
 
- - [ ] announcement: we're doing chapter 6 next, on elliptic curves (so we can do the number theory part of bitcoin). so read ch 6.
- - [ ] status reports -- general questions
- - [ ] ec: introduction to elliptic curves
+ - [x] announcement: we're doing chapter 6 next, on elliptic curves (so we can do the number theory part of bitcoin). so read ch 6.
+ - [x] status reports -- general questions
+ - [x] ec: introduction to elliptic curves
 
 # Jan 30
 
