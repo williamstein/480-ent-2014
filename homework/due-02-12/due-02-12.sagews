@@ -15,7 +15,7 @@
 
 (If you want, you can do this problem entire with pencil and paper, like people did thousands of years ago.  A computer isn't needed.)
 
-1. Derive an explicit parametrization of all rational points on the unit circle $x^2+y^2=1$, i.e., a function $f(t)=(?,?,?)$ so that there is a 1-1 correspondence between $t\in \mathbf{Q}\cup\{\infty\}$ and rational points on the circle.  (Hint: This should be pretty easy to find online if you get stuck.  The idea is to draw a line of slow $t$ through $(-1,0)$ and look at the other point of intersection.)
+1. Derive an explicit parametrization of all rational points on the unit circle $x^2+y^2=1$, i.e., a function $f(t)=(?,?,?)$ so that there is a 1-1 correspondence between $t\in \mathbf{Q}\cup\{\infty\}$ and rational points on the circle.  (Hint: This should be pretty easy to find online if you get stuck.  The idea is to draw a line of slope $t$ through $(-1,0)$ and look at the other point of intersection.)
 
 2. Use a similar method to derive an explicit parametrization of all rational points on the hyperbola $x^2-y^2=1$.
 
