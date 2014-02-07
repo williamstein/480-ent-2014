@@ -1,10 +1,12 @@
 ︠cfae614f-e29d-41d2-b462-682314a1227ei︠
 %md
-# February 3, 2014: Elliptic Curves, part 1
+# February 3, 2014: Elliptic Curves...
 
- - whiteboard: <http://youtu.be/YRX3nAhBzCw>
+ - Feb 3 whiteboard: <http://youtu.be/YRX3nAhBzCw>
+ - Feb 5 whiteboard: <http://youtu.be/EQPQr1kuA3E>
 
-︡88458d48-0d58-4d2b-8ecd-9550d89d3fc2︡{"html":"<h1>February 3, 2014: Elliptic Curves, part 1</h1>\n\n<ul>\n<li>whiteboard: <a href=\"http://youtu.be/YRX3nAhBzCw\">http://youtu.be/YRX3nAhBzCw</a></li>\n</ul>\n"}︡
+
+︡e14a8fa7-5d32-48dd-b2f7-0248341a6a0a︡{"html":"<h1>February 3, 2014: Elliptic Curves&#8230;</h1>\n\n<ul>\n<li>Feb 3 whiteboard: <a href=\"http://youtu.be/YRX3nAhBzCw\">http://youtu.be/YRX3nAhBzCw</a></li>\n<li>Feb 5 whiteboard: <a href=\"http://youtu.be/EQPQr1kuA3E\">http://youtu.be/EQPQr1kuA3E</a></li>\n</ul>\n"}︡
 ︠eb4b9219-083b-498a-a151-0f90c3531bd9i︠
 %md
 ## Whiteboard
@@ -12,7 +14,7 @@
  - Linear equations (one equation)
  - Quadratic equations (one equation): Pythagorean triples and that you can enumerate them (how=homework)
  - Cubic equations: um, a "little bit" harder than linear and quadratic -- focus on **elliptic curves** for now
-︡9b5f0087-f12b-4dc6-ac09-d77862ccef22︡{"html":"<h2>Whiteboard</h2>\n\n<ul>\n<li>Linear equations (one equation)</li>\n<li>Quadratic equations (one equation): Pythagorean triples and that you can enumerate them (how=homework)</li>\n<li>Cubic equations: um, a &#8220;little bit&#8221; harder than linear and quadratic &#8211; focus on <strong>elliptic curves</strong> for now</li>\n</ul>\n"}︡
+︡6297990c-412c-414d-9254-d325f18f2a04︡{"html":"<h2>Whiteboard</h2>\n\n<ul>\n<li>Linear equations (one equation)</li>\n<li>Quadratic equations (one equation): Pythagorean triples and that you can enumerate them (how=homework)</li>\n<li>Cubic equations: um, a &#8220;little bit&#8221; harder than linear and quadratic &#8211; focus on <strong>elliptic curves</strong> for now</li>\n</ul>\n"}︡
 ︠4e4fbd5b-6bae-45c8-bb18-de7a9a180e94i︠
 %md
 ## Elliptic Curve Examples
@@ -131,7 +133,7 @@ Z = op(P1, op(P2,P3)); W = op(op(P1,P2),P3)
 (Q(Z[0].numerator()*W[0].denominator() - Z[0].denominator()*W[0].numerator())) == 0
 (Q(Z[1].numerator()*W[1].denominator() - Z[1].denominator()*W[1].numerator())) == 0
 ︡4f2c912d-75cb-45eb-acf1-a5fa2a14c652︡{"stdout":"True\n"}︡{"stdout":"True\n"}︡
-︠9e3fbdb8-fa0d-4790-98d9-54e1f5873fa0︠
+︠2c249f7f-08bd-4d28-9ab4-e22e8127398b︠
 
 
 

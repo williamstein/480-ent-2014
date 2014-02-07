@@ -1,6 +1,7 @@
 # Feb 7
+ - [ ] status reports
  - [ ] go over new homework (at least, what is ready)
- - [ ] projector -- 2014-02-03.sagews = elliptic curve examples
+ - [ ] projector -- 2014-02-03.sagews = elliptic curve examples; elliptic curve diffie hellman
 
 # Feb 5
  - [x] homework due tonight: ask me last-minute questions after class
