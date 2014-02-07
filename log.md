@@ -1,6 +1,7 @@
 # Feb 7
  - [ ] status reports
- - [ ] go over new homework (at least, what is ready)
+ - [ ] summarize what's up: rational points; group law.  next: examples and crypto.
+ - [ ] projector -- go over next homework (at least, what is ready)
  - [ ] projector -- 2014-02-03.sagews = elliptic curve examples; elliptic curve diffie hellman
 
 # Feb 5
