@@ -19,7 +19,7 @@ def f(t=10, PNT=False, Gauss=False):
     if Gauss:
         g += plot(Li, (2,t), color='darkgreen')
     show(g, gridlines=True, svg=True, frame=True, figsize=[10,3])
-︡4aae5b85-eca7-4b51-8596-d67991ecb759︡{"interact":{"style":"None","flicker":false,"layout":[[["t",12,null]],[["PNT",12,null]],[["Gauss",12,null]],[["",12,null]]],"id":"54aae95d-4b26-410d-91ce-41a2f4807b4c","controls":[{"control_type":"input-box","default":10,"label":"t","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"t","type":null},{"default":false,"var":"PNT","readonly":false,"control_type":"checkbox","label":"PNT"},{"default":false,"var":"Gauss","readonly":false,"control_type":"checkbox","label":"Gauss"}]}}︡
+︡9a65f00c-72a6-4860-a82d-60c53edeb9f0︡{"interact":{"style":"None","flicker":false,"layout":[[["t",12,null]],[["PNT",12,null]],[["Gauss",12,null]],[["",12,null]]],"id":"7355a2e6-abff-4d21-bedc-6a99cfb7f205","controls":[{"control_type":"input-box","default":10,"label":"t","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"t","type":null},{"default":false,"var":"PNT","readonly":false,"control_type":"checkbox","label":"PNT"},{"default":false,"var":"Gauss","readonly":false,"control_type":"checkbox","label":"Gauss"}]}}︡
 ︠5d23bc69-9fa1-4399-82f6-c607e991eae8︠
 %md
 ## Theorems and Conjectures

@@ -4,7 +4,7 @@
 
  - screencast: <http://youtu.be/7Y4m1nHN_aA>
 ︡fd59554f-2106-4a79-9de3-fe59b4f16ea0︡{"html":"<h1>January 27, 2014: Public-key Cryptography, part 1.</h1>\n\n<ul>\n<li>screencast: <a href=\"http://youtu.be/7Y4m1nHN_aA\">http://youtu.be/7Y4m1nHN_aA</a></li>\n</ul>\n"}︡
-︠aec94b5c-9ae4-46b1-8c36-44004645f86d︠
+︠aec94b5c-9ae4-46b1-8c36-44004645f86di︠
 md("## Raising numbers to large powers modulo $n$\n... is fast!")
 
 @interact#(layout=[['a','b','n']])
@@ -14,7 +14,7 @@ def f(a=2,b=3,n=5):
     tm = cputime(t)
     md("$$%s ^ {%s} \\equiv %s \\pmod{%s}$$"%(a,b,r,n))
     print "Time (seconds):", tm
-︡3530ae1a-cd25-474c-964f-82ce5f4d84ec︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",12,null]],[["b",12,null]],[["n",12,null]],[["",12,null]]],"id":"67d2db8d-3fca-462f-bbfd-5d2d89cd37cf","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
+︡2b5cf3be-b48a-4124-9fb6-d0aa5cf771da︡{"html":"<h2>Raising numbers to large powers modulo $n$</h2>\n\n<p>&#8230; is fast!</p>\n"}︡{"interact":{"style":"None","flicker":false,"layout":[[["a",12,null]],[["b",12,null]],[["n",12,null]],[["",12,null]]],"id":"39936fc1-6287-4160-b623-1fa927ea7e3f","controls":[{"control_type":"input-box","default":2,"label":"a","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"a","type":null},{"control_type":"input-box","default":3,"label":"b","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"b","type":null},{"control_type":"input-box","default":5,"label":"n","nrows":1,"width":null,"readonly":false,"submit_button":null,"var":"n","type":null}]}}︡
 ︠ab8d04b9-995d-4a99-a552-eb99dceb3629︠
 
 ︠4e27bd74-73a6-4eb7-9a04-355a4eb43872︠

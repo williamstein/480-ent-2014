@@ -25,6 +25,10 @@
 E = EllipticCurve([-5,4])
 E
 ︡982c66ec-429c-4c49-83fb-bf12cae50529︡{"stdout":"Elliptic Curve defined by y^2 = x^3 - 5*x + 4 over Rational Field\n"}︡
+︠56f33a87-2a34-45bb-bc88-116b251f231d︠
+
+︠3d6f4220-90cc-4ee5-a650-5d73c76f7021︠
+
 ︠d7eaf374-51b7-4fe6-af1c-bd6e92d43f05︠
 # zero element of the group
 E(0)
