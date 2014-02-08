@@ -4,9 +4,10 @@
 
  - Feb 3 whiteboard: <http://youtu.be/YRX3nAhBzCw>
  - Feb 5 whiteboard: <http://youtu.be/EQPQr1kuA3E>
+ - Feb 7 screencast: <http://youtu.be/ODagX00dYUY>
 
 
-︡e14a8fa7-5d32-48dd-b2f7-0248341a6a0a︡{"html":"<h1>February 3, 2014: Elliptic Curves&#8230;</h1>\n\n<ul>\n<li>Feb 3 whiteboard: <a href=\"http://youtu.be/YRX3nAhBzCw\">http://youtu.be/YRX3nAhBzCw</a></li>\n<li>Feb 5 whiteboard: <a href=\"http://youtu.be/EQPQr1kuA3E\">http://youtu.be/EQPQr1kuA3E</a></li>\n</ul>\n"}︡
+︡76e19f49-658a-4f7b-aa35-2663c1ed71a6︡{"html":"<h1>February 3, 2014: Elliptic Curves&#8230;</h1>\n\n<ul>\n<li>Feb 3 whiteboard: <a href=\"http://youtu.be/YRX3nAhBzCw\">http://youtu.be/YRX3nAhBzCw</a></li>\n<li>Feb 5 whiteboard: <a href=\"http://youtu.be/EQPQr1kuA3E\">http://youtu.be/EQPQr1kuA3E</a></li>\n<li>Feb 7 screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></li>\n<li>Feb 7 screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></li>\n<li>Feb 7 screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></li>\n<li>Feb 7 screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></li>\n<li>Feb 7 screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></li>\n<li>Feb 7 screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></li>\n</ul>\n"}︡
 ︠eb4b9219-083b-498a-a151-0f90c3531bd9i︠
 %md
 ## Whiteboard
@@ -72,10 +73,10 @@ P+Q
 ︠119dea00-763f-4b84-aa91-077e24524023︠
 E = EllipticCurve(Integers(59), [1,54])
 E
-︡f7b6de16-d2e4-4f52-909d-e54923220c58︡{"stdout":"Elliptic Curve defined by y^2 = x^3 + x + 54 over Ring of integers modulo 59\n"}︡
+︡da3c6f6e-8855-47ec-8e45-4bd9d7ba8fd2︡{"stdout":"Elliptic Curve defined by y^2 = x^3 + x + 54 over Ring of integers modulo 59\n"}︡
 ︠f581dfb2-de5a-485b-9e06-2eae70bd0878︠
 E.plot(pointsize=50).show(gridlines=True, svg=True, frame=True)
-︡211b0b21-4749-49ee-a847-1da7286b300f︡{"once":false,"file":{"show":true,"uuid":"2a355e98-bb41-4d9b-8fec-90fad5839c4c","filename":"/projects/289c86ee-94a2-4ad5-be71-70def0d6eb09/.sage/temp/compute6a/10162/tmp_l8PN9F.svg"}}︡
+︡2120ab94-c82a-4af4-a306-ffe6f6030bf4︡{"once":false,"file":{"show":true,"uuid":"2a355e98-bb41-4d9b-8fec-90fad5839c4c","filename":"/projects/d6df9d1b-2462-4aa2-91e0-995610ea1726/.sage/temp/compute4a/14190/tmp_GHwREu.svg"}}︡
 ︠4ee87b94-e9d3-4eb3-ab22-03e5608e0b9a︠
 E.cardinality()
 ︡cbf8e070-c310-41a3-97e3-d484c7fc7b74︡{"stdout":"57\n"}︡
