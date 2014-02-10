@@ -1,9 +1,10 @@
 # Feb 10
- - [ ] status reports
- - [ ] projector on/screencast on
- - [ ] go over new homework (due wed)
- - [ ] elliptic curve group law: 2014-02-10.sagews
- - [ ] elliptic curve crypto: 2014-02-07.sagews
+ - [x] status reports
+ - [x] projector on/screencast on
+ - [x] go over new homework (due wed)
+ - [x] elliptic curve group law: 2014-02-10.sagews
+ - [x] elliptic curve crypto: 2014-02-07.sagews
+ - <http://youtu.be/DV0GNfTnx7Y>
 
 # Feb 7
  - [x] status reports

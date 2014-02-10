@@ -3,7 +3,8 @@
 # February 7, 2014: Elliptic Curves...
 
 - on feb 7 mainly use 2014-02-03; but also, something about Diffie-Hellman below.
-︡5fa924ad-d1eb-4a2a-9736-4941b7b370f2︡{"html":"<h1>February 7, 2014: Elliptic Curves&#8230;</h1>\n\n<ul>\n<li>on feb 7 mainly use 2014-02-03; but also, something about Diffie-Hellman below.</li>\n</ul>\n"}︡
+- <http://youtu.be/DV0GNfTnx7Y>
+︡229e3736-e5bc-4034-92cb-34955d6770e7︡{"html":"<h1>February 7, 2014: Elliptic Curves&#8230;</h1>\n\n<ul>\n<li>on feb 7 mainly use 2014-02-03; but also, something about Diffie-Hellman below.</li>\n<li><a href=\"http://youtu.be/DV0GNfTnx7Y\">http://youtu.be/DV0GNfTnx7Y</a></li>\n</ul>\n"}︡
 ︠202e2611-9cab-47aa-be8b-67d4cc87a288i︠
 %md
 ## Recall -- Diffie-Hellman
@@ -22,13 +23,13 @@
 ︠2379f925-7c16-4da0-a557-51a0109e05f0︠
 p = next_prime(2^127)
 g = Mod(2,p); g
-︡03d34fb6-2ce6-4478-95f6-87494e710882︡{"stdout":"2\n"}︡
+︡4f75d031-d6b1-4ccf-93cd-9df2624dad1a︡{"stdout":"2\n"}︡
 ︠de0b61a6-c27b-40b6-9ce9-4873e865eba4︠
 g.multiplicative_order()
-︡f734bd9e-3a95-4774-b15a-abacdc8efa2f︡{"stdout":"170141183460469231731687303715884105756\n"}︡
+︡024bca5a-7883-4994-991b-ad0e6e1704d7︡{"stdout":"170141183460469231731687303715884105756"}︡{"stdout":"\n"}︡
 ︠c0e3bbb7-6043-4fee-80b4-feedd93ee7a7︠
 p-1
-︡c1244616-e5b2-4223-9677-76797f4a07eb︡{"stdout":"170141183460469231731687303715884105756\n"}︡
+︡fd363044-c531-49cf-9496-079ca387cdfe︡{"stdout":"170141183460469231731687303715884105756\n"}︡
 ︠3f665377-90d4-41d6-ae38-472894218bf0i︠
 %md
 ### Attack
