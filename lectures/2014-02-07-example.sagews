@@ -1,12 +1,9 @@
 ︠ad7e0c4d-87a4-45e9-968d-5d42f9b842cci︠
 %md
+# Lecture on 2014-02-07: Examples
 Screencast: <http://youtu.be/ODagX00dYUY>
-︡d951c60b-bfc7-413a-9217-1552d530c7d3︡{"html":"<p>Screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></p>\n"}︡
-︠ad7e0c4d-87a4-45e9-968d-5d42f9b842cci︠
-%md
-Screencast: <http://youtu.be/ODagX00dYUY>
-︡d951c60b-bfc7-413a-9217-1552d530c7d3︡{"html":"<p>Screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></p>\n"}︡
-︠c7547c6f-16b7-4c56-aa85-88fad2c7cb78︠
+︡58814cd1-d5ea-4978-b547-28f265e0e6d1︡{"html":"<h1>Lecture on 2014-02-07: Examples</h1>\n\n<p>Screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></p>\n"}︡
+︠f715669d-9c9f-4e85-9771-3b36d07bf970︠
 E = EllipticCurve([6, 11])
 show(E)
 ︡7dadd5dd-afe3-4a73-b134-c17348082265︡{"tex":{"tex":"y^2 = x^{3} + 6 x + 11 ","display":true}}︡

@@ -84,7 +84,83 @@ Introduced to the world by our very own Neal Koblitz (and also by Victor Miller 
 # Rene Schoof didn't think so...
 salvus.file('9aa5a04f7649.jpg')
 ︡de35b4f5-7155-453a-ae71-26df79f074d6︡{"once":false,"file":{"show":true,"uuid":"48eab665-1445-439a-b854-c602e84d47a2","filename":"9aa5a04f7649.jpg"}}︡
-︠efe545b4-bc6f-4825-9a84-9e1a01ef60be︠
+︠efe545b4-bc6f-4825-9a84-9e1a01ef60bei︠
+
+%md
+### Schoof's idea
+
+- No obvious way to compute $\# E(\mathbf{F}_p)$ **directly**.
+
+- So sneak up on it, by cleverly computing $\# E(\mathbf{F}_p) \pmod{\ell}$ for many primes $\ell$.
+
+- Then, use the Chinese Remainder theorem to obtain the integer $\# E(\mathbf{F}_p)$.
+
+Schoof figured out how to compute $\# E(\mathbf{F}_p) \pmod{\ell}$ efficiently by explicitly computing information about the Frobenius map:
+
+$$
+  (x,y) \mapsto (x^p, y^p)
+$$
+
+on the subgroup of elements of $\# E(\mathbf{F}_{p^r})$ of order dividing $\ell$...   (Here $\mathbf{F}_{p^r}$ is a sufficiently large finite field.)
+
+Full details are well beyond the scope of this course.
+
+But you can try it out!
+︡d137870e-5139-4755-b44f-f47d42350ce8︡{"html":"<h3>Schoof&#8217;s idea</h3>\n\n<ul>\n<li><p>No obvious way to compute $\\# E(\\mathbf{F}_p)$ <strong>directly</strong>.</p></li>\n<li><p>So sneak up on it, by cleverly computing $\\# E(\\mathbf{F}_p) \\pmod{\\ell}$ for many primes $\\ell$.</p></li>\n<li><p>Then, use the Chinese Remainder theorem to obtain the integer $\\# E(\\mathbf{F}_p)$.</p></li>\n</ul>\n\n<p>Schoof figured out how to compute $\\# E(\\mathbf{F}_p) \\pmod{\\ell}$ efficiently by explicitly computing information about the Frobenius map:</p>\n\n<p>$$\n  (x,y) \\mapsto (x^p, y^p)\n$$</p>\n\n<p>on the subgroup of elements of $\\# E(\\mathbf{F}_{p^r})$ of order dividing $\\ell$&#8230;   (Here $\\mathbf{F}_{p^r}$ is a sufficiently large finite field.)</p>\n\n<p>Full details are well beyond the scope of this course.</p>\n\n<p>But you can try it out!</p>\n"}︡
+︠49402d2d-270d-4cc9-a3c9-949bdc610349︠
+p = next_prime(10^40); p
+︡61fd023e-c629-4caf-b3f4-76ac321ce155︡{"stdout":"10000000000000000000000000000000000000121"}︡{"stdout":"\n"}︡
+︠fcad2563-656a-4f45-b200-797938432548︠
+E = EllipticCurve(GF(p), [2,3]); E
+︡64ef3e00-ceaa-4c3f-8061-c8782e99cb13︡{"stdout":"Elliptic Curve defined by y^2 = x^3 + 2*x + 3 over Finite Field of size 10000000000000000000000000000000000000121\n"}︡
+︠5b3975b5-e338-4cd0-80b8-cd2ee0a26b59︠
+%time n = E.cardinality(); n  # this uses Schoof's algorithm
+︡f01f799e-45ed-4297-8ca9-9ad1f4544125︡{"stdout":"10000000000000000000119408859820876289124\n"}︡{"stdout":"CPU time: 0.00 s, Wall time: 0.00 s\n"}︡
+︠bde8b507-db2f-4a19-914b-6c74c243beb7︠
+factor(n)
+︡de1725fd-2322-4bee-bb2f-eaf567111815︡{"stdout":"2^2 * 11 * 41 * 281 * 317 * 62229725412332293691094486079303\n"}︡
+︠1447390f-fb33-4995-9f71-3ee5b1125547i︠
+%md
+
+**Homework:** Get a sense of the complexity.  Does it get twice as hard to compute cardinality as we had a digit, or polynomial harder?  (The claim that the algorithm is *fast* is the claim that it gets only a bit harder as we add digits.)  Also figure out the polynomial in Sage.
+︡7bc10bfc-6f70-4c6a-b03c-33d66c97869e︡{"html":"<p><strong>Homework:</strong> Get a sense of the complexity.  Does it get twice as hard to compute cardinality as we had a digit, or polynomial harder?  (The claim that the algorithm is <em>fast</em> is the claim that it gets only a bit harder as we add digits.)  Also figure out the polynomial in Sage.</p>\n"}︡
+︠b5dfc0a0-e05b-45a9-933a-49501a6f163d︠
+
+︠fa72493b-ef75-43fe-a1bd-a44bd321df20︠
+
+︠aae54416-d277-48a8-b87d-85baa84d0e34i︠
+%md
+### Let's try it out Diffie-Hellman on this elliptic curve
+︡3d33ae79-d59e-4fb0-aaee-61eb00a54447︡{"html":"<h3>Let&#8217;s try it out Diffie-Hellman on this elliptic curve</h3>\n"}︡
+︠c9381eaf-83fa-4fd9-932c-bea545b4297c︠
+p = next_prime(10^40); p
+E = EllipticCurve(GF(p), [2,3]); E
+P = E([7640606313052404727871466222990343759309, 2848268726722914253557401365971633049742])  # found using #E.random_point()
+︡09a5a151-5383-4dff-bf02-15569eaa00c5︡{"stdout":"10000000000000000000000000000000000000121\n"}︡{"stdout":"Elliptic Curve defined by y^2 = x^3 + 2*x + 3 over Finite Field of size 10000000000000000000000000000000000000121\n"}︡
+︠c53a062d-f252-4cbe-86c0-883a56987015︠
+P.order().factor()
+︡93e3799f-9df7-47a2-8388-7038eb533364︡{"stdout":"11 * 281 * 317 * 62229725412332293691094486079303"}︡{"stdout":"\n"}︡
+︠0eda9bf0-042a-4730-b7c8-6b287f5fb4b6︠
+n = randrange(1,10^40)
+︡e44c9049-02e9-40cb-b5b9-2af18dcda5ce︡
+︠090b604c-73f2-4dbc-bdf8-d5fa68ea5eb6︠
+n*P
+︡c844ce24-2b29-4d21-88d8-a2dd15fe2e83︡{"stdout":"(9742018745458282596957305481344155761073 : 3305191629911698505564085013673311187248 : 1)\n"}︡
+︠d124c494-2b1f-4500-bdf0-daf5ad7ecd95︠
+# somebody else do this:
+#    m = randrange(1,10^40)
+#    m*P
+︠a2a4673c-b7fa-470b-83e9-1c2ebdd51d34︠
+mP = E([ ??? ])
+secret = n*mP
+
+
+︠5077bfc5-7cc0-4da1-94d5-0cabe40f8799i︠
+
+%md
+#### Coming up -- how elliptic curves are used in Bitcoin, Playstation, Microsoft DRM, etc...
+︡176fa0c9-f994-48e2-8624-f8e1668e6d18︡{"html":"<h4>Coming up &#8211; how elliptic curves are used in Bitcoin, Playstation, Microsoft DRM, etc&#8230;</h4>\n"}︡
+︠f137d972-2b67-4b0c-87ce-759c51e241aa︠
 
 
 

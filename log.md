@@ -1,8 +1,15 @@
-# Feb 7
+# Feb 10
  - [ ] status reports
- - [ ] summarize what's up: rational points; group law.  next: examples and crypto.
- - [ ] projector -- go over next homework (at least, what is ready)
- - [ ] projector -- 2014-02-03.sagews = elliptic curve examples; elliptic curve diffie hellman
+ - [ ] projector on/screencast on
+ - [ ] go over new homework (due wed)
+ - [ ] elliptic curve group law: 2014-02-10.sagews
+ - [ ] elliptic curve crypto: 2014-02-07.sagews
+
+# Feb 7
+ - [x] status reports
+ - [x] summarize what's up: rational points; group law.  next: examples and crypto.
+ - [x] projector -- go over next homework (at least, what is ready)
+ - [x] projector -- 2014-02-03.sagews = elliptic curve examples; elliptic curve diffie hellman
 
 # Feb 5
  - [x] homework due tonight: ask me last-minute questions after class
