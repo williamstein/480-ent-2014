@@ -108,14 +108,19 @@ The signature of the message is the pair $(r,s)$ of nonzero elements of $\mathbf
 
 2. **Verify:** Compute the point $$C = \frac{z}{s}G + \frac{r}{s}Q \in E(\mathbf{F}_q).$$  The signature is valid if $\phi(x(C)) = r$.
 
-** Prop: ** *If $(r,s)$ is valid, then this protocol concludes it is valid.*
+**Prop:** *If $(r,s)$ is valid, then this protocol concludes it is valid.*
 
 Proof: Since $(r,s)$ is valid, we have $s=(z+rd)/k$, so $k=(z+rd)/s$.  Thus
 $$
   kG = \frac{z}{s}G + \frac{rd}{s}G = \frac{z}{s}G + \frac{r}{s}Q = C.
 $$
-︡98db4b09-8868-41e3-b5c9-e6a6d1a4ede6︡{"html":"<h2>The ECDSA Protocol</h2>\n\n<h3>Creating the Signature</h3>\n\n<ol>\n<li><p><strong>Setup:</strong>  Choose a prime number $q$, an elliptic curve $E$ mod $q$, a point $G$ of some prime order $p$, and define a set-theoretic map (in any way) $\\phi:\\mathbf{F}_q \\to \\mathbf{F}_p^*$.    Choose a random secret $d \\in \\mathbf{F}_p^*$ and let $Q=dG$.  The public key is $(E,G,Q,p)$ and the private key is $d$.</p></li>\n<li><p><strong>Hash:</strong> Hash the message $m$ to an element $z\\in\\mathbf{F}_p^*$.</p></li>\n<li><p><strong>Random Point:</strong> Choose a random $k\\in \\mathbf{F}_p^*$, and compute $kG \\in E(\\mathbf{F}_q)$.</p></li>\n<li><p><strong>Compute Signature:</strong> Compute\n$$\nr = \\phi(x(k(G))) \\in \\mathbf{F}_p^*\n\\quad\\text{and}\\quad s = \\frac{z+rd}{k} \\in \\mathbf{F}_p.\n$$\n(If $s=0$, redo with a different random point in step 3.)\nThe signature of the message is the pair $(r,s)$ of nonzero elements of $\\mathbf{F}_p$.</p></li>\n</ol>\n\n<h3>Verifying the Signature</h3>\n\n<ol>\n<li><p><strong>Hash:</strong> Hash message $m$ to the same $z\\in  \\mathbf{F}_p^*$ as above.</p></li>\n<li><p><strong>Verify:</strong> Compute the point $$C = \\frac{z}{s}G + \\frac{r}{s}Q \\in E(\\mathbf{F}_q).$$  The signature is valid if $\\phi(x(C)) = r$.</p></li>\n</ol>\n\n<p><em>* Prop: *</em> <em>If $(r,s)$ is valid, then this protocol concludes it is valid.</em></p>\n\n<p>Proof: Since $(r,s)$ is valid, we have $s=(z+rd)/k$, so $k=(z+rd)/s$.  Thus\n$$\n  kG = \\frac{z}{s}G + \\frac{rd}{s}G = \\frac{z}{s}G + \\frac{r}{s}Q = C.\n$$</p>\n"}︡
-︠b2bdd3d8-c73b-42fb-9fec-ebf3a18dc568︠
+︡2a0798c6-32ab-40d5-a78a-4e28ee367097︡{"html":"<h2>The ECDSA Protocol</h2>\n\n<h3>Creating the Signature</h3>\n\n<ol>\n<li><p><strong>Setup:</strong>  Choose a prime number $q$, an elliptic curve $E$ mod $q$, a point $G$ of some prime order $p$, and define a set-theoretic map (in any way) $\\phi:\\mathbf{F}_q \\to \\mathbf{F}_p^*$.    Choose a random secret $d \\in \\mathbf{F}_p^*$ and let $Q=dG$.  The public key is $(E,G,Q,p)$ and the private key is $d$.</p></li>\n<li><p><strong>Hash:</strong> Hash the message $m$ to an element $z\\in\\mathbf{F}_p^*$.</p></li>\n<li><p><strong>Random Point:</strong> Choose a random $k\\in \\mathbf{F}_p^*$, and compute $kG \\in E(\\mathbf{F}_q)$.</p></li>\n<li><p><strong>Compute Signature:</strong> Compute\n$$\nr = \\phi(x(k(G))) \\in \\mathbf{F}_p^*\n\\quad\\text{and}\\quad s = \\frac{z+rd}{k} \\in \\mathbf{F}_p.\n$$\n(If $s=0$, redo with a different random point in step 3.)\nThe signature of the message is the pair $(r,s)$ of nonzero elements of $\\mathbf{F}_p$.</p></li>\n</ol>\n\n<h3>Verifying the Signature</h3>\n\n<ol>\n<li><p><strong>Hash:</strong> Hash message $m$ to the same $z\\in  \\mathbf{F}_p^*$ as above.</p></li>\n<li><p><strong>Verify:</strong> Compute the point $$C = \\frac{z}{s}G + \\frac{r}{s}Q \\in E(\\mathbf{F}_q).$$  The signature is valid if $\\phi(x(C)) = r$.</p></li>\n</ol>\n\n<p><strong>Prop:</strong> <em>If $(r,s)$ is valid, then this protocol concludes it is valid.</em></p>\n\n<p>Proof: Since $(r,s)$ is valid, we have $s=(z+rd)/k$, so $k=(z+rd)/s$.  Thus\n$$\n  kG = \\frac{z}{s}G + \\frac{rd}{s}G = \\frac{z}{s}G + \\frac{r}{s}Q = C.\n$$</p>\n"}︡
+︠b2bdd3d8-c73b-42fb-9fec-ebf3a18dc568i︠
+%md
+
+Next time... we will talk about how the PS3 implementation was messed up, and also about how this is used in bitcoin.
+︡8629ce51-de8a-43df-ab73-59974b5d6736︡{"html":"<p>Next time&#8230; we will talk about how the PS3 implementation was messed up, and also about how this is used in bitcoin.</p>\n"}︡
+︠e728c5a5-4c67-4778-85a0-bd805f79a8d0︠
 
 
 
