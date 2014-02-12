@@ -1,3 +1,9 @@
+# Feb 12
+ - [ ] status reports
+ - [ ] reminder: hw is due tonight at 11:59pm
+ - [ ] new homework
+ - [ ] goal for this week: understand how elliptic curves are used in bitcoin.
+
 # Feb 10
  - [x] status reports
  - [x] projector on/screencast on
