@@ -1,3 +1,5 @@
+q
+
 ︠ef639a76-de06-45f4-a3b4-23876bb1bef0i︠
 %md
 # Lecture: Feb 12, 2014
@@ -21,8 +23,8 @@ v = [((-1, 0), 0),((-1, 1), 1), ((-1, 4), 2), ((-1, 25), 3)] + [((-19,151),4), (
 for ab, r in v:
     a, b = ab
     E = EllipticCurve(ab)
-    print latex(E), '\t\t', r, '\t\t', max(abs(a^3), b^2), E.gens(), E.conductor().factor()
-︡33582987-7943-4203-92eb-4094cc81ac02︡{"stdout":"y^2 = x^{3} -  x  \t\t0 \t\t1 [] 2^5\ny^2 = x^{3} -  x + 1  \t\t1 \t\t1 [(1 : -1 : 1)] 2^2 * 23\ny^2 = x^{3} -  x + 4  \t\t2 \t\t16 [(-1 : 2 : 1), (0 : 2 : 1)] 2^5 * 107\ny^2 = x^{3} -  x + 25  \t\t3 \t\t625 [(-3 : 1 : 1), (-1 : 5 : 1), (0 : 5 : 1)] 2^2 * 16871\ny^2 = x^{3} - 19 x + 151  \t\t4 \t\t22801 "}︡{"stdout":"[(-6 : 7 : 1), (-5 : 11 : 1), (-1 : 13 : 1), (2 : 11 : 1)] 2^3 * 588191\ny^2 = x^{3} -  x + 12769  \t\t5 \t\t163047361 "}︡{"stdout":"[(-23 : 25 : 1), (-19 : 77 : 1), (-15 : 97 : 1), (-11 : 107 : 1), (-1 : 113 : 1)] 2^2 * 4402278743\n"}︡
+    print latex(E), '\t\t', r, '\t\t', max(abs(a^3), b^2), E.gens(), '\n'
+︡2f93a91f-db0a-4a6b-aba3-babcd5e4aad5︡{"stdout":"y^2 = x^{3} -  x "}︡{"stdout":" \t\t0 \t\t1 "}︡{"stdout":"[] \n\ny^2 = x^{3} -  x + 1  \t\t1 \t\t1 "}︡{"stdout":"[(1 : -1 : 1)] \n\ny^2 = x^{3} -  x + 4  \t\t2 \t\t16 "}︡{"stdout":"[(-1 : 2 : 1), (0 : 2 : 1)] \n\ny^2 = x^{3} -  x + 25  \t\t3 \t\t625 "}︡{"stdout":"[(-3 : 1 : 1), (-1 : 5 : 1), (0 : 5 : 1)] \n\ny^2 = x^{3} - 19 x + 151  \t\t4 \t\t22801 "}︡{"stdout":"[(-6 : 7 : 1), (-5 : 11 : 1), (-1 : 13 : 1), (2 : 11 : 1)] \n\ny^2 = x^{3} -  x + 12769  \t\t5 \t\t163047361 "}︡{"stdout":"[(-23 : 25 : 1), (-19 : 77 : 1), (-15 : 97 : 1), (-11 : 107 : 1), (-1 : 113 : 1)] \n\n"}︡
 ︠a859992a-be1e-464f-b6b8-42d5da953889i︠
 %md
 ## The Elliptic Curve Digital Signature Algorithm
@@ -81,7 +83,7 @@ So... we need a better idea.  And here elliptic curves give us something genuine
 
 
 ︡2397a108-359d-4f0e-899f-e3f27159e600︡{"html":"<h2>Motivation for the ECDSA Protocol</h2>\n\n<p>Imagine you want to modify the Diffie-Hellman idea to somehow construct a digital signature.  What might you do?</p>\n\n<h3>Quick review of Diffie-Hellman and RSA</h3>\n\n<ul>\n<li><p><strong>Diffie-Hellman</strong>: Fix $g$ and $p$. Agree on a secret shared key by:</p>\n\n<ul>\n<li>person 1 choosing random $n$ and sending $g^n \\pmod{p}$</li>\n<li>person 2 choosing random $m$ and sending $g^m \\pmod{p}$</li>\n<li>the secret is $g^{nm}$.</li>\n</ul></li>\n<li><p><strong>RSA digital signature</strong>:  create a <em>public key</em> $(e,n=pq)$ and private key $d=e^{-1}\\pmod{\\varphi(n)}$.</p>\n\n<ul>\n<li>person 1 <em>digitally signs</em> hash $t$ of message by computing $s=t^d\\pmod{n}$.</li>\n<li>person 2 <em>verifies the signature</em> by computing hash $t$ of message and $s^e=t\\pmod{n}$.  Nice and clean.</li>\n</ul></li>\n</ul>\n\n<h3>How to (fail to) make Diffie-Hellman into a digital signature scheme</h3>\n\n<p>Fix $g$ and $p$.  create a <em>public key</em> by choosing a random secret $n$ and publishing the <em>public key</em> $(g,p,g^n)$.  The <em>private key</em> is $n$.</p>\n\n<ul>\n<li><p>person 1 <em>digitally signs</em> hash $t$ of a message by choosing random $m$ and computing the <em>signature</em>  $(r,s)=(g^m, tg^{mn})$.</p></li>\n<li><p>person 2 <em>verifies the signature</em> $(r,s)$ by computing hash $t$ of message and&#8230; what?  They have the public key $(g,p,g^n)$.  They also have $r$ (=supposed to equal $g^m$) and $s$ (=supposed to equal $tg^{mn}$).  So they have numbers that are supposed to be $g,p,g^n,g^m,g^{nm}$.  If they could verify that indeed these numbers are as claimed, then they could conclude that the signature is valid&#8230;</p></li>\n</ul>\n\n<p>However it seems hard to decide, given $g,p,g^n,g^m$ whether or not a number that claims to be $g^{nm}$ really is $g^{nm}$.  See <a href=\"http://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption\">http://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption</a>.</p>\n\n<p>So&#8230; we need a better idea.  And here elliptic curves give us something genuinely new, involving <em>both</em> arithmetic in the field $\\mathbf{F}_p$ and arithmetic on the elliptic curve.</p>\n"}︡
-︠cf4458b3-1321-456b-8d6a-59d22584bbf7i︠
+︠cf4458b3-1321-456b-8d6a-59d22584bbf7︠
 %md
 ## The ECDSA Protocol
 

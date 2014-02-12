@@ -1,6 +1,7 @@
 ︠ad7e0c4d-87a4-45e9-968d-5d42f9b842cci︠
 %md
 # Lecture on 2014-02-07: Examples
+# Lecture on 2014-02-07: Examples
 Screencast: <http://youtu.be/ODagX00dYUY>
 ︡58814cd1-d5ea-4978-b547-28f265e0e6d1︡{"html":"<h1>Lecture on 2014-02-07: Examples</h1>\n\n<p>Screencast: <a href=\"http://youtu.be/ODagX00dYUY\">http://youtu.be/ODagX00dYUY</a></p>\n"}︡
 ︠f715669d-9c9f-4e85-9771-3b36d07bf970︠

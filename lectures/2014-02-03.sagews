@@ -25,9 +25,11 @@
 ### An Elliptic Curve over $\mathbf{Q}$
 ︡05117891-0b64-40fb-8b96-d69184f81db3︡{"html":"<h3>An Elliptic Curve over $\\mathbf{Q}$</h3>\n"}︡
 ︠31fec1fe-fc68-4136-839d-c5560e94a772︠
+
 E = EllipticCurve([-5,4])
 E
-︡982c66ec-429c-4c49-83fb-bf12cae50529︡{"stdout":"Elliptic Curve defined by y^2 = x^3 - 5*x + 4 over Rational Field\n"}︡
+
+︡ddaea67f-8b96-4f3e-850c-f1178d48d5a4︡{"stdout":"Elliptic Curve defined by y^2 = x^3 - 5*x + 4 over Rational Field\n"}︡
 ︠56f33a87-2a34-45bb-bc88-116b251f231d︠
 
 ︠3d6f4220-90cc-4ee5-a650-5d73c76f7021︠
@@ -35,17 +37,22 @@ E
 ︠d7eaf374-51b7-4fe6-af1c-bd6e92d43f05︠
 # zero element of the group
 E(0)
-︡e29a77ce-7de5-4672-8e83-95de0a29b5f0︡{"stdout":"(0 : 1 : 0)\n"}︡
+︡4f042cbf-cfee-4443-a0d4-833d6c38b628︡{"stdout":"(0 : 1 : 0)\n"}︡
+︠2f77fdb9-4b88-445f-b6d7-bb07cf8df0ef︠
+
 ︠7e8ccca2-5bcd-4a3c-b601-0e65e9f1801d︠
 # two points
 P = E([1,0]); Q = E([0,2])
 print "P =", P
 print "Q =", Q
-︡2c733525-43dc-4451-933a-7e0aeaeed98c︡{"stdout":"P = (1 : 0 : 1)\n"}︡{"stdout":"Q = (0 : 2 : 1)\n"}︡
+︡f75f9c63-7121-4242-8180-80e22dd8b029︡{"stdout":"P = (1 : 0 : 1)\n"}︡{"stdout":"Q = (0 : 2 : 1)\n"}︡
 ︠62cd0083-eea5-400d-82e8-209d0b95b06c︠
 g = plot(E) + point(P[:2],color='red',pointsize=50) + point(Q[:2],color='purple',pointsize=50)
 g.show(svg=True, frame=True, gridlines=True)
-︡3db5c7f3-f977-4785-993d-a9a83d8af942︡{"once":false,"file":{"show":true,"uuid":"f4d1447a-3f0f-461d-b59f-6c28f280f901","filename":"/projects/289c86ee-94a2-4ad5-be71-70def0d6eb09/.sage/temp/compute6a/10162/tmp_mqYnmA.svg"}}︡
+︡d2897e7d-2f82-42d3-8acc-654865b0ef06︡︠b84960d4-e3d4-4527-83e3-7f8500538888︠
+
+{"once":false,"file":{"show":true,"uuid":"78edbd16-400b-4b36-9fa0-4f357ea35aa1","filename":"/projects/d6df9d1b-2462-4aa2-91e0-995610ea1726/.sage/temp/compute4a/8876/tmp_ef6Dv_.svg"}}
+︡
 ︠cec0fbff-811f-4556-8211-2875b80dc095︠
 P+Q
 ︡1d2a5816-6d46-4a67-ae20-f58a3f9ebf25︡{"stdout":"(3 : 4 : 1)\n"}︡
@@ -58,6 +65,7 @@ P+Q
 ︡78898078-c541-4694-a718-e423459802f1︡{"stdout":"True\n"}︡
 ︠10677575-0134-4038-941b-4767b1e6adbb︠
 8*Q
+︡1a3082b4-a9c4-49cb-8d04-9b8da63c315d︡{"stdout":"(15391901113308768253825/100678609467174594816 : 1909379176673755688412810754648897/1010196391680802937796360228864 : 1)\n"}︡
 ︠0e0b3881-5992-4e20-87f9-ba235baf8e30︠
 16*Q
 ︠0d5dfad8-a1e8-449c-81ac-b8a0ff88333a︠
@@ -70,11 +78,13 @@ P+Q
 %md
 ### An Elliptic Curve Modulo $p$
 ︡73e917d9-dafe-4183-a17a-78bf608b0270︡{"html":"<h3>An Elliptic Curve Modulo $p$</h3>\n"}︡
+︠9f6f1eaf-f23f-4d7c-a926-ff33773c4311︠
+
 ︠119dea00-763f-4b84-aa91-077e24524023︠
 E = EllipticCurve(Integers(59), [1,54])
 E
 ︡da3c6f6e-8855-47ec-8e45-4bd9d7ba8fd2︡{"stdout":"Elliptic Curve defined by y^2 = x^3 + x + 54 over Ring of integers modulo 59\n"}︡
-︠f581dfb2-de5a-485b-9e06-2eae70bd0878︠
+︠f581dfb2-de5a-485b-9e06-2eae70bd0878i︠
 E.plot(pointsize=50).show(gridlines=True, svg=True, frame=True)
 ︡2120ab94-c82a-4af4-a306-ffe6f6030bf4︡{"once":false,"file":{"show":true,"uuid":"2a355e98-bb41-4d9b-8fec-90fad5839c4c","filename":"/projects/d6df9d1b-2462-4aa2-91e0-995610ea1726/.sage/temp/compute4a/14190/tmp_GHwREu.svg"}}︡
 ︠4ee87b94-e9d3-4eb3-ab22-03e5608e0b9a︠

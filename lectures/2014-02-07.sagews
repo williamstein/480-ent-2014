@@ -4,7 +4,7 @@
 
 - on feb 7 mainly use 2014-02-03; but also, something about Diffie-Hellman below.
 - <http://youtu.be/DV0GNfTnx7Y>
-︡229e3736-e5bc-4034-92cb-34955d6770e7︡{"html":"<h1>February 7, 2014: Elliptic Curves&#8230;</h1>\n\n<ul>\n<li>on feb 7 mainly use 2014-02-03; but also, something about Diffie-Hellman below.</li>\n<li><a href=\"http://youtu.be/DV0GNfTnx7Y\">http://youtu.be/DV0GNfTnx7Y</a></li>\n</ul>\n"}︡
+︡229e3736-e5bc-4034-92cb-34955d6770e7︡{"html":"<h1>February 7, 2014: Elliptic Curves&#8230;</h1>\n\n<ul>\n<li>on feb 7 mainly use 2014-02-03; but also, something about Diffie-Hellman below.</li>\n<li><a href=\"http://youtu.be/DV0GNfTnx7Y\">http://youtu.be/DV0GNfTnx7Y</a></li>\n<li><a href=\"http://youtu.be/DV0GNfTnx7Y\">http://youtu.be/DV0GNfTnx7Y</a></li>\n</ul>\n"}︡
 ︠202e2611-9cab-47aa-be8b-67d4cc87a288i︠
 %md
 ## Recall -- Diffie-Hellman
