@@ -1,6 +1,8 @@
 # Feb 14
-- [ ] status reports
-- [ ] ECSDA lecture:
+
+- [x] status reports
+
+--> - [ ] ECSDA lecture:
     - [ ] very simple ECDSA implementation demo and test
     - [ ] ECDSA in PS3
     - [ ] How exactly Bitcoin uses ECDSA...
