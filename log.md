@@ -1,8 +1,15 @@
+# Feb 14
+- [ ] status reports
+- [ ] ECSDA lecture:
+    - [ ] very simple ECDSA implementation demo and test
+    - [ ] ECDSA in PS3
+    - [ ] How exactly Bitcoin uses ECDSA...
+
 # Feb 12
- - [ ] status reports
- - [ ] reminder: hw is due tonight at 11:59pm
- - [ ] new homework
- - [ ] goal for this week: understand how elliptic curves are used in bitcoin.
+ - [x] status reports
+ - [x] reminder: hw is due tonight at 11:59pm
+ - [x] new homework
+ - [x] goal for this week: understand how elliptic curves are used in bitcoin.
 
 # Feb 10
  - [x] status reports
