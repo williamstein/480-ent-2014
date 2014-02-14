@@ -137,23 +137,57 @@ phi(C2[0])            # == r2 above.
 %md
 **Question:** What serious mistake did we just make?!
 ︡4e705793-9fc2-4cd5-b2cd-dd67c5700114︡{"html":"<p><strong>Question:</strong> What serious mistake did we just make?!</p>\n"}︡
-︠ed462424-b83d-4bd5-a1ba-873121a0c4ff︠
+︠06399c0d-1c30-4786-9aab-955dc6e0364f︠
 
+
+
+
+
+
+
+
+
+
+
+
+︠c9283ab3-c0fc-4853-b2a6-d6d9e1e28d26︠
+# Just looking at the signatures, we can easily compute this number:
+print (z - z2)/(s-s2)
+
+# Wait, that's actually k, which was some secret thing used in signing... so?
+k
+︡c276a443-de00-4e4e-9a56-d7ad128139e0︡{"stdout":"347668061274271830327738527361755354\n"}︡{"stdout":"347668061274271830327738527361755354\n"}︡
+︠9f4bdb27-783d-41c4-9ab6-5a277ed93628︠
+# so!
+(s*k-z)/r   # all known by attacker
+︡a95de399-32e4-430a-b784-e131e62b5c67︡{"stdout":"85509169948493851489056561321083269\n"}︡
 ︠9419f698-6cbe-474a-b112-44717967bcc7︠
+# Umh, that's the private key. Crap.
+d
+︡3562e6e8-e32c-48fc-a558-952524fecd0a︡{"stdout":"85509169948493851489056561321083269\n"}︡
+︠f5367c60-2478-4cb4-91b7-1c237f71f5a9i︠
+%md
 
-︠f5367c60-2478-4cb4-91b7-1c237f71f5a9︠
+### Our mistake
 
-
-
-︠512f5cc2-b101-4afe-aa1d-d2f6b004ce93︠
+Our mistake was that we didn't generate a new random k.
+In general, if the k's aren't *really damn random* ECDSA will be easily crackable.
+︡fdfa6e15-6aca-4aca-8ac0-94ff25098897︡{"html":"<h3>Our mistake</h3>\n\n<p>Our mistake was that we didn&#8217;t generate a new random k.\nIn general, if the k&#8217;s aren&#8217;t <em>really damn random</em> ECDSA will be easily crackable.</p>\n"}︡
+︠512f5cc2-b101-4afe-aa1d-d2f6b004ce93i︠
 
 %md
-## ECDSA in PS3
+## ECDSA in PS3 -- an egrarious example
 
+They used one single $k$, not changing it at all, leading to them being totally owned.
 
-︡eb272584-e1b4-47d8-abda-377fbe306e2a︡{"html":"<h2>ECDSA in PS3</h2>\n"}︡
-︠f6a9683d-043d-49c1-9aba-6673cc9dd71f︠
-
+︡fdef9295-bb9d-48c0-a96c-efcc15a82842︡{"html":"<h2>ECDSA in PS3 &#8211; an egrarious example</h2>\n\n<p>They used one single $k$, not changing it at all, leading to them being totally owned.</p>\n"}︡
+︠f6a9683d-043d-49c1-9aba-6673cc9dd71fi︠
+salvus.file("ps3-fail.png")
+︡277218e5-dc3d-46f5-b4af-5cac0997003b︡{"once":false,"file":{"show":true,"uuid":"1789b00d-d246-461a-9a91-42d5df188a00","filename":"ps3-fail.png"}}︡
+︠39357f3f-27c4-46f4-9e93-11695376ff64i︠
+%html
+<a href='http://events.ccc.de/congress/2010/Fahrplan/attachments/1780_27c3_console_hacking_2010.pdf' target='_blank'>http://events.ccc.de/congress/2010/Fahrplan/attachments/1780_27c3_console_hacking_2010.pdf</a>
+︡296845ed-120c-4454-82bc-c5cac7c70419︡{"html":"<a href='http://events.ccc.de/congress/2010/Fahrplan/attachments/1780_27c3_console_hacking_2010.pdf' target='_blank'>http://events.ccc.de/congress/2010/Fahrplan/attachments/1780_27c3_console_hacking_2010.pdf</a>"}︡
 ︠f17500c4-f85e-4d74-abe0-254085edc9f2︠
 
 ︠87c2e8e2-1579-4f04-a063-6a63868a0811︠
