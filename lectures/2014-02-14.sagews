@@ -184,6 +184,9 @@ They used one single $k$, not changing it at all, leading to them being totally 
 ︠f6a9683d-043d-49c1-9aba-6673cc9dd71fi︠
 salvus.file("ps3-fail.png")
 ︡277218e5-dc3d-46f5-b4af-5cac0997003b︡{"once":false,"file":{"show":true,"uuid":"1789b00d-d246-461a-9a91-42d5df188a00","filename":"ps3-fail.png"}}︡
+︠0aa765ef-52ee-4b09-9742-606ce8a90988︠
+salvus.file('ps3-random.png')
+︡64f141ca-3b70-4c17-b18d-6989d1c81a72︡{"once":false,"file":{"show":true,"uuid":"663ec1a4-9e05-4dcb-b017-176caaec8103","filename":"ps3-random.png"}}︡
 ︠39357f3f-27c4-46f4-9e93-11695376ff64i︠
 %html
 <a href='http://events.ccc.de/congress/2010/Fahrplan/attachments/1780_27c3_console_hacking_2010.pdf' target='_blank'>http://events.ccc.de/congress/2010/Fahrplan/attachments/1780_27c3_console_hacking_2010.pdf</a>
@@ -194,19 +197,79 @@ salvus.file("ps3-fail.png")
 
 ︠f4be487e-76c1-4f13-8903-b790fcec7777i︠
 %md
-### PS3 has since been fixed
-︡245d084a-326c-42bc-b60a-e7b8fee2660f︡{"html":"<h3>PS3 has since been fixed</h3>\n"}︡
+### ECDSA in PS3 has since been fixed...
+︡797f0302-ebc6-49c7-b7e5-573468532fda︡{"html":"<h3>ECDSA in PS3 has since been fixed&#8230;</h3>\n"}︡
 ︠5ec7a077-5dbe-4593-a395-1650f22ff698i︠
 salvus.file("ps3-fixed.png")
 ︡29fca080-898f-425e-b438-228ce8c1b1f2︡{"once":false,"file":{"show":true,"uuid":"75a10795-59d3-4003-8fe6-bb899f007f06","filename":"ps3-fixed.png"}}︡
+︠d37e31ae-c635-42f0-9abb-bdc9d4c22d9b︠
+
 ︠afd9d4e5-ccc6-4f3d-a3fe-71f817994d0c︠
 
 ︠9885e7e3-290c-4a2a-a284-828fba68d54ei︠
 
 %md
 ## ECDSA in Bitcoin
-︡f7f800fd-50fe-4e56-9fe0-03168efef7ba︡{"html":"<h2>ECDSA in Bitcoin</h2>\n"}︡
+
+Yes, people have messed up the implementation of ECDSA here too, leading to theft...
+
+
+︡aa69a7cc-ecec-4d27-9b90-6b7f2997047e︡{"html":"<h2>ECDSA in Bitcoin</h2>\n\n<p>Yes, people have messed up the implementation of ECDSA here too, leading to theft&#8230;</p>\n"}︡
 ︠660b67bb-83f6-4330-b64e-922778a3e658︠
+salvus.file('bitcoin-random.png')
+︡2d4ddee8-e5f0-4ea3-bef1-f254f829230b︡{"once":false,"file":{"show":true,"uuid":"aa5f7d6e-a074-4ad1-aa59-82b7f253119c","filename":"bitcoin-random.png"}}︡
+︠0ead47f1-8f89-495d-a065-219b80c19771i︠
+%md
+## The Bitcoin Elliptic Curve
+
+Definition: <https://en.bitcoin.it/wiki/Secp256k1>
+
+Discussion: <https://bitcointalk.org/?topic=2699.0> --
+
+   "ECDSA verification is the primary CPU bottleneck for running a network node. So if Koblitz curves do indeed perform better we might end up grateful for that in future ..."
+︡59bb67ad-99af-4b75-85f1-8d8d22c0173a︡{"html":"<h2>The Bitcoin Elliptic Curve</h2>\n\n<p>Definition: <a href=\"https://en.bitcoin.it/wiki/Secp256k1\">https://en.bitcoin.it/wiki/Secp256k1</a></p>\n\n<p>Discussion: <a href=\"https://bitcointalk.org/?topic=2699.0\">https://bitcointalk.org/?topic=2699.0</a> &#8211; </p>\n\n<p>&#8220;ECDSA verification is the primary CPU bottleneck for running a network node. So if Koblitz curves do indeed perform better we might end up grateful for that in future &#8230;&#8221;</p>\n"}︡
+︠a2252709-7079-4a59-899c-01b3a91d6a72︠
+q =  2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 - 1
+is_prime(q)
+︡7cd6e256-7927-4638-bde1-8fca8d6d3ed2︡{"stdout":"True\n"}︡
+︠fd8b72d7-4fef-4472-a784-468045e34173︠
+# This is the elliptic curve "Secp256k1", where the "k" stands for "Koblitz".
+E = EllipticCurve(GF(q),[0,7]); E
+︡83c86533-2adb-459b-a6ac-b7b3ba1089c6︡{"stdout":"Elliptic Curve defined by y^2 = x^3 + 7 over Finite Field of size 115792089237316195423570985008687907853269984665640564039457584007908834671663\n"}︡
+︠bf3a34bd-8c21-47b0-85a3-e85317a25712i︠
+salvus.file('koblitz.png')
+︡03978a46-4676-417b-81e6-cb519a944950︡{"once":false,"file":{"show":true,"uuid":"9cbdc218-ea43-4541-8e3b-e850a5c9cedb","filename":"koblitz.png"}}︡
+︠516f9b69-ca6e-4e2e-b300-d87b20bf45cb︠
+%time p = E.cardinality(); p
+︡acbf41a4-98ef-429f-897d-f16c9ac6670f︡{"stdout":"115792089237316195423570985008687907852837564279074904382605163141518161494337\n"}︡{"stdout":"CPU time: 0.09 s, Wall time: 0.02 s\n"}︡
+︠b07476b7-9b19-46e5-a777-b3614d2a90db︠
+is_prime(p)
+︡f6945279-cbe1-4891-9574-1ef35073c247︡{"stdout":"True\n"}︡
+︠dcee6887-b5f4-446b-ad87-ecaf0b876c61︠
+len(p.str(2))
+︡8376e36d-fee8-40cf-81b0-6cacf2dcaa51︡{"stdout":"256\n"}︡
+︠b9c79180-ea54-4632-bfc2-f8f7ec54c8f8︠
+s = '79BE667E F9DCBBAC 55A06295 CE870B07 029BFCDB 2DCE28D9 59F2815B 16F81798'.replace(' ','').lower(); s
+︡c74454a8-4c3f-4541-947a-c307d15c8697︡{"stdout":"'79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798'\n"}︡
+︠f4ebe00a-064f-4ea1-9036-ff854ae46c44︠
+x = E.base_field()(ZZ(s,base=16)); x
+︡1775ef9f-c95a-460b-a519-c088a175ba02︡{"stdout":"55066263022277343669578718895168534326250603453777594175500187360389116729240\n"}︡
+︠f49f8cbe-8312-4edd-bd2e-a35661682780︠
+G = E.lift_x(x)
+G
+-G
+︡e38025e4-e403-4b35-a0ab-9974dd76d269︡{"stdout":"(55066263022277343669578718895168534326250603453777594175500187360389116729240 : 32670510020758816978083085130507043184471273380659243275938904335757337482424 : 1)\n"}︡{"stdout":"(55066263022277343669578718895168534326250603453777594175500187360389116729240 : 83121579216557378445487899878180864668798711284981320763518679672151497189239 : 1)\n"}︡
+︠34628408-62cb-44f5-81ec-325e70bc2b52︠
+ZZ(G[1]).str(base=16)  # this is the one
+ZZ(-G[1]).str(base=16)
+︡b035bb69-550b-43eb-8071-264843035ad4︡{"stdout":"'483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8'\n"}︡{"stdout":"'b7c52588d95c3b9aa25b0403f1eef75702e84bb7597aabe663b82f6f04ef2777'\n"}︡
+︠a0b28b69-8604-47b9-8e7c-8e78d13a8029︠
+G
+︡c4d2e556-9c3a-4cad-91d2-07e152b520b5︡{"stdout":"(55066263022277343669578718895168534326250603453777594175500187360389116729240 : 32670510020758816978083085130507043184471273380659243275938904335757337482424 : 1)\n"}︡
+︠72268210-7b6d-47f1-943d-952b69c20edb︠
+G.order()
+︡eb58de99-2576-4415-8cce-6c6fc4edf4a6︡{"stdout":"115792089237316195423570985008687907852837564279074904382605163141518161494337\n"}︡
+︠ca4f1a37-e48b-478f-b661-a69f032c6e6a︠
 
 
 
