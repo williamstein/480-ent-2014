@@ -36,7 +36,7 @@ b.  Give an *estimate* for how long you think it would take a single Sage comman
 An **abc triple** is a triple of positive integers $a,b,c$ such that $a+b=c$ and $\gcd(a,b)=1$.
 
 The **quality** of an abc triple is $$q(a,b,c) = \frac{\log(c)}{\log(\prod_{p\mid abc} p)}.$$
-(Here $\prod_{p\mid abc} p$ means the product of the prime divisors of $abc$. Thus if $abc=6\cdot 3^2\cdot 5$, then $\prod_{p\mid abc} p = 15$.)
+(Here $\prod_{p\mid abc} p$ means the product of the prime divisors of $abc$. Thus if $abc=6\cdot 3^2\cdot 5$, then $\prod_{p\mid abc} p = 2\cdot 3 \cdot 5 = 30$.)
 
 **Conjecture (The abc conjecture)** For every $\epsilon>0$, there are only finitely many abc triples such that $q(a,b,c)>\epsilon$.
 
@@ -48,7 +48,7 @@ Exercises:
 
 - Give an example of a triple $a,b,c$ with $q(a,b,c)>1$.
 
-︡cc3e1b52-4a8c-4eda-bed9-500da3535606︡{"html":"<h3>Problem 2: The ABC Conjecture</h3>\n\n<p>An <strong>abc triple</strong> is a triple of positive integers $a,b,c$ such that $a+b=c$ and $\\gcd(a,b)=1$.</p>\n\n<p>The <strong>quality</strong> of an abc triple is $$q(a,b,c) = \\frac{\\log(c)}{\\log(\\prod_{p\\mid abc} p)}.$$\n(Here $\\prod_{p\\mid abc} p$ means the product of the prime divisors of $abc$. Thus if $abc=6\\cdot 3^2\\cdot 5$, then $\\prod_{p\\mid abc} p = 15$.)</p>\n\n<p><strong>Conjecture (The abc conjecture)</strong> For every $\\epsilon>0$, there are only finitely many abc triples such that $q(a,b,c)>\\epsilon$.</p>\n\n<p>Exercises:</p>\n\n<ul>\n<li><p>Prove that if $a,b,c$ is an $a,b,c$ triple then $\\gcd(b,c)=1$ and $\\gcd(a,c)=1$.</p></li>\n<li><p>Prove that for any triple $a,b,c$, we have $q(a,b,c)>\\frac{1}{3}$.</p></li>\n<li><p>Give an example of a triple $a,b,c$ with $q(a,b,c)>1$.</p></li>\n</ul>\n"}︡
+︡5309eacb-08d8-49b5-b5ec-c2aeb5db138d︡{"html":"<h3>Problem 2: The ABC Conjecture</h3>\n\n<p>An <strong>abc triple</strong> is a triple of positive integers $a,b,c$ such that $a+b=c$ and $\\gcd(a,b)=1$.</p>\n\n<p>The <strong>quality</strong> of an abc triple is $$q(a,b,c) = \\frac{\\log(c)}{\\log(\\prod_{p\\mid abc} p)}.$$\n(Here $\\prod_{p\\mid abc} p$ means the product of the prime divisors of $abc$. Thus if $abc=6\\cdot 3^2\\cdot 5$, then $\\prod_{p\\mid abc} p = 2\\cdot 3 \\cdot 5 = 30$.)</p>\n\n<p><strong>Conjecture (The abc conjecture)</strong> For every $\\epsilon>0$, there are only finitely many abc triples such that $q(a,b,c)>\\epsilon$.</p>\n\n<p>Exercises:</p>\n\n<ul>\n<li><p>Prove that if $a,b,c$ is an $a,b,c$ triple then $\\gcd(b,c)=1$ and $\\gcd(a,c)=1$.</p></li>\n<li><p>Prove that for any triple $a,b,c$, we have $q(a,b,c)>\\frac{1}{3}$.</p></li>\n<li><p>Give an example of a triple $a,b,c$ with $q(a,b,c)>1$.</p></li>\n</ul>\n"}︡
 ︠a9a3793e-e3dd-4655-be22-0d90b35a2894︠
 
 ︠c4b70fce-12b5-43a4-b6b3-e33a04d9fa7f︠
