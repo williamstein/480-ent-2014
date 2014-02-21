@@ -5,10 +5,10 @@
 ## Instructions
 
  - Put your solutions in the empty space below the problem.
- - When you're done, open the worksheet, and copy/paste the URL to this worksheet into an email to wstein@gmail.com with the subject "math 480: homework 02-12".
+ - When you're done, open the worksheet, and copy/paste the URL to this worksheet into an email to wstein@gmail.com with the subject "math 480: homework 02-19".
 
 ## Problems
-︡fb0feee2-cc14-4452-ba8e-1b4d6a5ea2cc︡{"html":"<h1>Homework 5 &#8211; Due Feb 19, 2014</h1>\n\n<h2>Instructions</h2>\n\n<ul>\n<li>Put your solutions in the empty space below the problem.</li>\n<li>When you&#8217;re done, open the worksheet, and copy/paste the URL to this worksheet into an email to wstein@gmail.com with the subject &#8220;math 480: homework 02-12&#8221;.</li>\n</ul>\n\n<h2>Problems</h2>\n"}︡
+︡965d00c1-c9a1-4440-81a9-7a4fa1967bf4︡{"html":"<h1>Homework 5 &#8211; Due Feb 19, 2014</h1>\n\n<h2>Instructions</h2>\n\n<ul>\n<li>Put your solutions in the empty space below the problem.</li>\n<li>When you&#8217;re done, open the worksheet, and copy/paste the URL to this worksheet into an email to wstein@gmail.com with the subject &#8220;math 480: homework 02-19&#8221;.</li>\n</ul>\n\n<h2>Problems</h2>\n"}︡
 ︠1a8519a9-b8dd-47fe-beff-489f52c5a18bi︠
 
 %md
