@@ -1,17 +1,14 @@
 # Feb 26
 
-- [ ] status reports
+- [ ] status reports: say more than usual about your projects
 - [ ] computer -- statistics of partial convergents
 - [ ] computer -- next homework
-- [ ] whiteboard -- quadratic irrationals: prove that if continued fraction repeats, then it is quad irrational.
+- [ ] whiteboard -- quadratic irrationals: prove that if continued fraction repeats, then it is quad irrational.  Omit the converse (more technical).
 
-### Coming soon
+### Next topic: QR
 
   - Feb 28-March 7: quadratic reciprocity (or "squares modulo p exhibit many surprises!")
   - March 10,12,14: presentations -- will schedule soon.
-
-
-
 
 
 # Feb 24
