@@ -8,6 +8,7 @@
 ### Next topic: QR
 
   - Feb 28-March 7: quadratic reciprocity (or "squares modulo p exhibit many surprises!")
+      *March 5*: guest speaker -- Dan Shumow -- about the backdoor in EC random number gen.
   - March 10,12,14: presentations -- will schedule soon.
 
 
