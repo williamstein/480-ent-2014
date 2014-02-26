@@ -1,10 +1,18 @@
 # Feb 26
 
 - [ ] status reports
-- [ ] whiteboard -- quadratic irrationals
 - [ ] computer -- statistics of partial convergents
-- [ ] Feb 28-March 7: quadratic reciprocity (or "squares modulo p exhibit many surprises!")
-- [ ] March 10,12,14: presentations -- will schedule soon.
+- [ ] computer -- next homework
+- [ ] whiteboard -- quadratic irrationals: prove that if continued fraction repeats, then it is quad irrational.
+
+### Coming soon
+
+  - Feb 28-March 7: quadratic reciprocity (or "squares modulo p exhibit many surprises!")
+  - March 10,12,14: presentations -- will schedule soon.
+
+
+
+
 
 # Feb 24
 
