@@ -3,8 +3,8 @@
 - [ ] status reports
 - [ ] whiteboard -- quadratic irrationals
 - [ ] computer -- statistics of partial convergents
-- [ ] Feb 28-March 7: start a new surprise topic; nobody knows what it will be!
-- [ ] March 10,12,14: student presentations -- will schedule soon.
+- [ ] Feb 28-March 7: quadratic reciprocity (or "squares modulo p exhibit many surprises!")
+- [ ] March 10,12,14: presentations -- will schedule soon.
 
 # Feb 24
 
