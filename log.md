@@ -1,10 +1,17 @@
+# Feb 26
+
+- [ ] status reports
+- [ ] whiteboard -- quadratic irrationals
+- [ ] computer -- statistics of partial convergents
+- [ ] Feb 28-March 7: start a new surprise topic; nobody knows what it will be!
+- [ ] March 10,12,14: student presentations -- will schedule soon.
+
 # Feb 24
 
 - [ ] status reports
 - [ ] whiteboard (continued fractions) -- <http://youtu.be/CbwmnuhtVkI>
     - [ ] complete proof that every real number has a continued fraction representation
     - [ ] start proving this theorem: " An infinite simple continued fraction is periodic if and only if it represents a quadratic irrational."
-- [ ]
 
 # Feb 14
 

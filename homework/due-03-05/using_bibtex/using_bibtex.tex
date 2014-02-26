@@ -1,0 +1,22 @@
+\documentclass{article}
+\title{Bib examples}
+\usepackage{url}
+\begin{document}
+\bibliographystyle{plain}%Choose a bibliograhpic style
+
+
+\maketitle
+
+This is from what came up first on google, namely:
+\begin{center}
+  \url{http://www.csse.monash.edu.au/documents/bibtex/}
+\end{center}
+I had to fix a few mistakes in their code though!
+To edit the actual citations, edit the file Master.bib in the current directory.
+
+\section{Example}
+Note. This is the Postscript version with plain bibliographic style.
+Most of the academic staff in the School of Computer Science and Software Engineering have publications in their field of expertise or research. The majority of the publications appear in journals or proceedings of conferences. Articles appearing in journals may be written by a single author~\cite{Meyer2000}. Where there are multiple authors, the citation in the text usually names only the first author, for example Kim Marriott's article on logic programming~\cite{Codishetal2000}. The same fate befalls Henry Wu~\cite{Huetal2000}.
+%
+\bibliography{Master}
+\end{document}
