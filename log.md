@@ -1,9 +1,15 @@
+# Feb 28 -- new topic: Quadratic Reciprocity
+
+- [ ] status reports:
+- [ ] computer: introduction to quadratic reciprocity
+- [ ] whiteboard (depending on time): prove Fp^* is cyclic; prove that legendre symbol defines a homomorphism.
+
 # Feb 26
 
-- [ ] status reports: say more than usual about your projects
-- [ ] computer -- statistics of partial convergents
-- [ ] computer -- next homework
-- [ ] whiteboard -- quadratic irrationals: prove that if continued fraction repeats, then it is quad irrational.  Omit the converse (more technical).
+- [x] status reports: say more than usual about your projects
+- [x] computer -- statistics of partial convergents
+- [x] computer -- next homework
+- [x] whiteboard -- quadratic irrationals: prove that if continued fraction repeats, then it is quad irrational.  Omit the converse (more technical).
 
 ### Next topic: QR
 
