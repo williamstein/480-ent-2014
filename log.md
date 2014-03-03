@@ -1,3 +1,7 @@
+# March 3
+
+- [ ] whiteboard: <http://youtu.be/wPSQ85N1J04>
+
 # Feb 28 -- new topic: Quadratic Reciprocity
 
 - [ ] status reports:
