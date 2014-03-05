@@ -23,7 +23,6 @@
 ## Friday, March 14
 
 - Max Hoover
-- Min Kim
 - Seongjin Cho (Josh)
 - Tanner Smith
 - Valerie Sauer
