@@ -7,9 +7,9 @@ Bryan Lu
 Charles Sidlinger
 Christopher Trudeau
 Conner Ballew
-Henry Nguyen
 
 # Wednesday, March 12
+Henry Nguyen
 Jessica Junk
 John Spencer
 Joshua Bear
@@ -18,13 +18,11 @@ Laura Lindell
 Maninder Uppal
 Matt Butts
 Matthew Heid
-Max Hoover
 
 # Friday, March 14
+Max Hoover
 Min Kim
-Phillip Marcus Wilt
 Riley Klingler
-Sam Vandello
 Sara Sun
 Seongjin Cho (Josh)
 Tanner Smith
