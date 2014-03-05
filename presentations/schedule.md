@@ -3,19 +3,18 @@
 - Brad Schlenker
 - Brian Manion
 - Bryan Lu
-- Charles Sidlinger
 - Christopher Trudeau
 - Conner Ballew
 - Henry Nguyen
 
 # Wednesday, March 12
+- Charles Sidlinger (must be Wednesday)
 - Jessica Junk
 - John Spencer
 - Joshua Bear
 - Laura Lindell
 - Maninder Uppal
 - Matt Butts
-- Matthew Heid
 
 # Friday, March 14
 - Max Hoover
