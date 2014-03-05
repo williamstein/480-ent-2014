@@ -1,6 +1,6 @@
 # Final Presentations
 
-~ 9 minutes each
+~ 10 minutes each
 
 ## Monday, March 10
 
@@ -9,11 +9,10 @@
 - Brian Manion
 - Bryan Lu
 - Christopher Trudeau
-- Conner Ballew
 
 ## Wednesday, March 12
 
-- Henry Nguyen
+- Conner Ballew
 - Charles Sidlinger (must be Wednesday)
 - John Spencer
 - Laura Lindell
