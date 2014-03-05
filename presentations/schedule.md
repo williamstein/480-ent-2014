@@ -12,7 +12,6 @@
 - Jessica Junk
 - John Spencer
 - Joshua Bear
-- Lan Yao
 - Laura Lindell
 - Maninder Uppal
 - Matt Butts
