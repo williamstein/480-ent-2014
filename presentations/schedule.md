@@ -1,4 +1,4 @@
-# Monday March 10
+# Monday, March 10
 Alan Jones
 Alec Duggan
 Brad Schlenker
@@ -9,7 +9,7 @@ Christopher Trudeau
 Conner Ballew
 Henry Nguyen
 
-# Monday March 12
+# Wednesday, March 12
 Jessica Junk
 John Spencer
 Joshua Bear
@@ -20,7 +20,7 @@ Matt Butts
 Matthew Heid
 Max Hoover
 
-# Monday March 14
+# Friday, March 14
 Min Kim
 Phillip Marcus Wilt
 Riley Klingler
