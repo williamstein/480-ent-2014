@@ -6,9 +6,9 @@ Bryan Lu
 Charles Sidlinger
 Christopher Trudeau
 Conner Ballew
+Henry Nguyen
 
 # Wednesday, March 12
-Henry Nguyen
 Jessica Junk
 John Spencer
 Joshua Bear
