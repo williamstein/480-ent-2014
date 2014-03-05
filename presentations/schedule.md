@@ -1,25 +1,29 @@
-# Monday, March 10
+# Final Presentations
+
+~ 9 minutes each
+
+## Monday, March 10
+
 - Alan Jones
 - Brad Schlenker
 - Brian Manion
 - Bryan Lu
 - Christopher Trudeau
 - Conner Ballew
-- Henry Nguyen
 
-# Wednesday, March 12
+## Wednesday, March 12
+
+- Henry Nguyen
 - Charles Sidlinger (must be Wednesday)
-- Jessica Junk
 - John Spencer
-- Joshua Bear
 - Laura Lindell
 - Maninder Uppal
 - Matt Butts
 
-# Friday, March 14
+## Friday, March 14
+
 - Max Hoover
 - Min Kim
-- Sara Sun
 - Seongjin Cho (Josh)
 - Tanner Smith
 - Valerie Sauer
