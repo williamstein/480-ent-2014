@@ -1,6 +1,5 @@
 # Monday, March 10
 Alan Jones
-Alec Duggan
 Brad Schlenker
 Brian Manion
 Bryan Lu
