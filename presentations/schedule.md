@@ -21,7 +21,6 @@
 # Friday, March 14
 - Max Hoover
 - Min Kim
-- Riley Klingler
 - Sara Sun
 - Seongjin Cho (Josh)
 - Tanner Smith
