@@ -1,26 +1,26 @@
 # Final Presentations
 
-~ 10 minutes each
+~ 8 minutes each
 
 ## Monday, March 10
+
+- William will talk a second day about Quadratic Reciprocity.
+
+
+## Wednesday, March 12
 
 - Alan Jones
 - Brad Schlenker
 - Brian Manion
 - Bryan Lu
-- Christopher Trudeau
-
-## Wednesday, March 12
-
 - Conner Ballew
 - Charles Sidlinger (must be Wednesday)
 - John Spencer
-- Laura Lindell
-- Maninder Uppal
-- Matt Butts
 
 ## Friday, March 14
 
+- Laura Lindell
+- Maninder Uppal
 - Max Hoover
 - Seongjin Cho (Josh)
 - Tanner Smith
