@@ -9,7 +9,6 @@
 
 ## Wednesday, March 12
 
-- Alan Jones
 - Brad Schlenker
 - Brian Manion
 - Bryan Lu
