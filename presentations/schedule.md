@@ -14,13 +14,13 @@
 - Bryan Lu
 - Conner Ballew
 - Charles Sidlinger (must be Wednesday)
-- John Spencer
+- John Spencer (stay on Wednesday)
 
 ## Friday, March 14
 
 - Laura Lindell
 - Maninder Uppal
 - Max Hoover
-- Seongjin Cho (Josh)
 - Tanner Smith
 - Xiaoke Kelvin Liu
+- Seongjin Cho (Josh)
