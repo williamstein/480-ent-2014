@@ -9,8 +9,8 @@
 
 ## Wednesday, March 12
 
-- Brad Schlenker
 - Brian Manion
+- Brad Schlenker
 - Bryan Lu
 - Conner Ballew
 - Charles Sidlinger (must be Wednesday)
