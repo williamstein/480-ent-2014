@@ -1,6 +1,6 @@
 # Final Presentations
 
-~ 8 minutes each
+~ 8 minutes each + switch-over
 
 ## Monday, March 10
 
@@ -23,5 +23,4 @@
 - Max Hoover
 - Seongjin Cho (Josh)
 - Tanner Smith
-- Valerie Sauer
 - Xiaoke Kelvin Liu
