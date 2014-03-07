@@ -1,3 +1,11 @@
+# March 10
+
+- [ ] whiteboard: Gauss sums
+
+# March 7
+
+- [ ] whiteboard: <http://youtu.be/am8Zdgog-C8>  -- proved quadratic reciprocity, mod some Gauss sum statements
+
 # March 3
 
 - [ ] whiteboard: <http://youtu.be/wPSQ85N1J04>
