@@ -21,6 +21,5 @@
 - Laura Lindell
 - Maninder Uppal
 - Max Hoover
-- Tanner Smith
 - Xiaoke Kelvin Liu
 - Seongjin Cho (Josh)
