@@ -1,6 +1,6 @@
 # March 10
 
-- [ ] whiteboard: Gauss sums
+- [ ] whiteboard: Gauss sums: <http://youtu.be/7CqpTRd8L9g>
 
 # March 7
 
